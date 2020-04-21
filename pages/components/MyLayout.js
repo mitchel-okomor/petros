@@ -20,6 +20,13 @@ p{
   line-height: 1.5em;
 
 }
+a{
+  text-decoration:none;
+  list-style:none;
+}
+li{
+  list-style:none;
+}
 
      #layout{
        background-color: white;

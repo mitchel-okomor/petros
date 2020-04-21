@@ -15,7 +15,7 @@ const Footer = () => {
           <a id="search-locations">Search locations</a>
         </Link>
       </div>
-      <div>
+      <div id="second-div">
         <p>
           Tel: +44 1224 987 000 <br></br>Email: info@kcadeutag.com
         </p>
@@ -36,7 +36,8 @@ const Footer = () => {
       <style jsx>
         {`
 
-          footer {
+          #footer {
+            box-sizing:border-box;
             display: flex;
             flex-wrap: wrap;
             min-height: 200px;
@@ -46,44 +47,13 @@ const Footer = () => {
             text-align: center;
             margin: auto;
             border-top: 5px solid red;
+             justify-content: space-between;
           }
-          #footer{
-              display:flex;
-              width:80%;
-              text-align: center;
-              margin:auto;
-              justify-content: space-between;
-
-          }
+         
 
           #footer div{
               margin: 20px;
           }
-
-          @media only screen and (max-width: 800px) {
-              footer{
-                  height:auto;
-                  width:100%;
-                  margin:auto;
-                  text-align: center;
-                  padding:0;
-              }
-            #footer{
-              display:block;
-              width:100%;
-              height: auto;
-              text-align: center;
-              margin:auto;
-              justify-content: space-between;
-
-          }
-          #last-div {
-            display: block;
-          }
-          }
-          {/** End of media query */}
-
-
 
           #address {
             float: left;
@@ -114,10 +84,10 @@ const Footer = () => {
 
 
           .fa {
-            padding: 15px;
+            padding: 5px;
             font-size: 2em;
-            width: 2em;
-            height:2em;
+            width: 0.8em;
+            height:0.8em;
             text-align: center;
             text-decoration: none;
             margin: auto;
@@ -137,6 +107,34 @@ const Footer = () => {
           div {
             text-align: left;
           }
+
+          @media only screen and (max-width: 800px) {
+              #footer{
+                display: relative;
+                background-color: rgb(48, 48, 48);
+              box-sizing:border-box;
+                  height:auto;
+                  width:100%;
+                  margin:auto;
+                  text-align: center;
+                  padding:0;
+              }
+          .address{
+            display:block;
+            width: 100%;
+            
+          }
+          #second-div{
+            display:block;
+            width: 100%;
+          }
+          #last-div {
+            display: block;
+            margin: 0;
+            padding:0;
+          }
+          }
+          {/** End of media query */}
         `}
       </style>
     </footer>

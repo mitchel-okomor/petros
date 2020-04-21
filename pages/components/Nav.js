@@ -3,9 +3,8 @@ import Link from "next/link";
 const Nav = () => (
   
   <nav>
-    
     <ul>
-    <li id="home">
+    <li id="home" className="active">
         <Link href="/">
           <a> Home</a>
         </Link>
@@ -60,19 +59,23 @@ const Nav = () => (
         color: red;
         height: 40px;
         z-index: 2;
+        
       }
       @media only screen and (max-width: 800px) {
         nav {
-          position: relative;
+         display: none;
           width: 100%;
           margin:auto;
           text-align: center;
           background-color: rgb(48, 48, 48);
           height: auto;
           z-index: 2;
+          padding-top: 40px;
+       
         }
 
         nav ul {
+       
           margin: auto;
           width: 100%;
           height: auto;
@@ -100,10 +103,11 @@ const Nav = () => (
         color:red;
       }
       nav a:hover {
-        color: rgb(48, 48, 48);
+        color: red;
       }
       nav li:hover {
-        background-color: rgb(48, 48, 48);
+        background-color: red;
+        border-radius:5px;
       }
       nav a {
         color: rgb(245, 245, 245);
@@ -122,10 +126,11 @@ const Nav = () => (
       }
 
       nav a:hover {
-        color: rgb(128, 128, 128);
+        color: red;
       }
       nav li:hover {
-        background-color: rgb(245, 245, 245);
+        background-color: red;
+        border-radius:5px;
       }
 
       nav a:active {

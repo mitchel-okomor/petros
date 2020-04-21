@@ -9,7 +9,7 @@ export default function Innovations() {
         <hr/>
         <h1> Innovations</h1>
         <img src="/innovations.jpg" alt="innovations"/>
-        <p>PetroGas Oil & Construction Ltd is a leading provider of premium rig services, specialist engineering and design and land rig manufacture for the international oil and gas industry. Our breadth of services distinguishes us from the vast majority of international drilling contractors. </p>
+        <p>PetroGas Group is a leading provider of premium rig services, specialist engineering and design and land rig manufacture for the international oil and gas industry. Our breadth of services distinguishes us from the vast majority of international drilling contractors. </p>
 <br/>
 <br />
 <article>
