@@ -110,6 +110,7 @@ return(
       @media only screen and (max-width: 800px){
         header{
           position: fixed;
+          top:0;
           box-sizing: border-box;
           display: block;
           width: 100%;
@@ -156,7 +157,7 @@ return(
      }
   
    header a:hover {
-     color: red;
+     color: white;
    }
    header li:hover {
      background-color: red;
