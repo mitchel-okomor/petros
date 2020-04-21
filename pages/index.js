@@ -10,19 +10,19 @@ export default function Index() {
       <main>
         <div className="intro">
 <h1>A well of innovation</h1>
-<p>Discover how our technology and innovations are transforming drilling operations throughout the industry.</p>
+<p>Discover how our technology and innovations are transforming the Oil and Gas and Construction operations throughout the industry.</p>
 <Link href="#" ><a className="read-more">Find out more</a></Link>
         </div>
 
 <div className="main-text">
 <p>
-With over 130 years of experience, KCA Deutag is
+With over 130 years of experience, PetroGas Oil & Construction Ltd is
 one of the world’s leading drilling and engineering
 contractors working onshore and offshore with a
 focus on safety, quality and 
 performance.
 </p>
-<Link href="#" className="main-read-more"><a>The KCA Deutag Way</a></Link>
+<Link href="#" ><a className="main-read-more">The PetroGas Way</a></Link>
 
 </div>
 
@@ -58,13 +58,13 @@ performance.
 <div id="news">
 <h2>Latest News</h2>
 <ul>
-<li><Link href="#"><a>CNRI awards KCA Deutag a multi-million pound drilling contract for three UK North Sea platforms<p>2 December 2019</p></a></Link>
+<li><Link href="#"><a>CNRI awards PetroGas Oil & Construction Ltd a multi-million pound drilling contract for three UK North Sea platforms<p>2 December 2019</p></a></Link>
 
 </li>
-<li><Link href="#"><a>KCA Deutag secures $460m of land drilling contracts in the Middle East, Africa and Europe<p>2 December 2019</p></a></Link>
+<li><Link href="#"><a>PetroGas Oil & Construction Ltd secures $460m of land drilling contracts in the Middle East, Africa and Europe<p>2 December 2019</p></a></Link>
 
 </li>
-<li><Link href="#"><a>Bentec wins multi-million euro contract for seven 320t cluster slider drilling rigs<p>2 December 2019</p></a></Link>
+<li><Link href="#"><a>PetroGas Oil & Construction Ltd wins multi-million euro contract for seven 320t cluster slider drilling rigs<p>2 December 2019</p></a></Link>
 
 </li>
 </ul>
@@ -80,17 +80,46 @@ performance.
  main {
   background-image: url("Homepage.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 500px;
+  background-size: 100% 30em;
 min-height: 100vh;
 width:100%;}
 
   .intro{
     padding-top: 100px;
    text-align:center;
+   margin:auto;
      min-height:400px;
    
   }
+.intro p{
+  max-width: 20em;
+  margin: auto;
+  text-align:center;
+}
 
+  .intro a{
+   display: inline-block;
+    background-color:red;
+    color: white;
+    border-radius: 4px;
+    font-size: 17px;
+    width: 150px;
+    height:30px;
+    text-decoration: none;
+ padding-top: 10px;
+ margin-top 30px;
+
+  }
+
+  
+  .intro a:visited{
+    background-color:red;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    width: 20px;
+    text-decoration: none;
+  }
 
 .main-text{
     padding-top: 100px;
@@ -166,29 +195,7 @@ height:30px;
     font-size:20px;
   }
 
- .intro a{
-   display: inline-block;
-    background-color:red;
-    color: white;
-    border-radius: 4px;
-    font-size: 17px;
-    width: 150px;
-    height:30px;
-    text-decoration: none;
- padding-top: 10px;
- margin-top 30px;
-
-  }
-
-  
-  .intro a:visited{
-    background-color:red;
-    color: white;
-    border-radius: 3px;
-    font-size: 17px;
-    width: 20px;
-    text-decoration: none;
-  }
+ 
 
 #news{
   margin:auto;

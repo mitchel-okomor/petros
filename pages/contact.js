@@ -5,14 +5,14 @@ export default function Contact() {
   return (
     <Layout>
       <div className="contact">
-      <h2>Home > Locations</h2>
+      <h2>Home > Contact us</h2>
        <hr/>
        <h1>Our addresses</h1> 
        <div className="address">
 <div id="office1">
   <h3>United Kingdom</h3>
   <p>
-  KCA Deutag Group Headquarters & Registered Office:
+ PetroGas Group Headquarters & Registered Office:
 Bankhead Drive, City South Office Park,
 Portlethen, Aberdeenshire, AB12 4XX
 Registered in Scotland No. 31961.
@@ -26,9 +26,9 @@ E: info@kcadeutag.com
 </div>
 
 <div id="office2">
-  <h3>United Kingdom</h3>
+  <h3>Germany</h3>
   <p>
-  KCA Deutag Group Headquarters & Registered Office:
+  PetroGas Group Headquarters & Registered Office:
 Bankhead Drive, City South Office Park,
 Portlethen, Aberdeenshire, AB12 4XX
 Registered in Scotland No. 31961.
@@ -38,18 +38,21 @@ T: +44 1224 987 000
 <br />
 E: info@kcadeutag.com
   </p>
-  <Link href="#" ><a className="main-read-more">The KCA Deutag Way</a></Link>
+  <Link href="#" ><a className="main-read-more">The PetroGas Way</a></Link>
 </div>
        </div>
       </div>
       <style jsx>{`
 .contact{
-    margin: 1em;
+    margin: 5em;
 }
 
 .contact h1{
   text-align:center;
   margin-top: 2em;
+}
+.contact h2{
+  color:grey;
 }
 .contact h3{
   color:grey;

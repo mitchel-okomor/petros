@@ -97,6 +97,23 @@ const Nav = () => (
         text-decoration: none;
         width:100%;
       }
+      #home{
+        font-size:1.2em;
+        font-weight: bold;
+        color:red;
+      }
+      nav a:hover {
+        color: rgb(48, 48, 48);
+      }
+      nav li:hover {
+        background-color: rgb(48, 48, 48);
+      }
+      nav a {
+        color: rgb(245, 245, 245);
+        display: block;
+        padding: 5px 0px 5px 0px;
+        text-decoration: none;
+      }
       }
       {/** End of media query*/}
 
@@ -115,7 +132,7 @@ const Nav = () => (
       }
 
       nav a:active {
-        color: white;
+        color: red;
       }
 
       nav li:active {

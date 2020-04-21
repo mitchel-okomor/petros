@@ -25,7 +25,7 @@ height:100%;
 text-align:center; 
    }
    .logo img{
-     width: 230px;
+     width: 150px;
      height: 80px;
    }
   

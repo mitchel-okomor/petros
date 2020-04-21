@@ -13,6 +13,12 @@ const Layout = props => (
     <style jsx global>{`
 *{
   margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  line-height: 1.5em;
+
 }
 
      #layout{

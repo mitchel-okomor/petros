@@ -6,13 +6,13 @@ const Footer = () => {
 
       <div id="address">
         <p>
-          KCA Deutag Group Headquarters & Registered Office <br></br>
+          PetroGas Group Headquarters & Registered Office <br></br>
           Bankhead Drive, City South Office Park,<br></br>
           Portlethen, Aberdeenshire<br></br>
           AB12 4XX
         </p><br></br>
-        <Link href="#" className="viel-all-news">
-          <a>Search all global locations</a>
+        <Link href="#">
+          <a id="search-locations">Search locations</a>
         </Link>
       </div>
       <div>
@@ -22,7 +22,7 @@ const Footer = () => {
         <a href="#" className="fa fa-linkedin"></a>
       </div>
       <div id="last-div">
-        Email: info@kcadeutag.com<br></br>© KCA Deutag 2020<br></br>
+        Email: info@kcadeutag.com<br></br>© PetroGas 2020<br></br>
         Registered in Scotland No 31961.
         <br></br>
         <br></br>
@@ -104,6 +104,12 @@ const Footer = () => {
 
           #last-div {
             float: right;
+          }
+
+          #search-locations{
+            font-size: 1.1em;
+            width:auto;
+
           }
 
 

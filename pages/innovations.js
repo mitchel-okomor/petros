@@ -9,7 +9,7 @@ export default function Innovations() {
         <hr/>
         <h1> Innovations</h1>
         <img src="/innovations.jpg" alt="innovations"/>
-        <p>KCA Deutag is a leading provider of premium rig services, specialist engineering and design and land rig manufacture for the international oil and gas industry. Our breadth of services distinguishes us from the vast majority of international drilling contractors. </p>
+        <p>PetroGas Oil & Construction Ltd is a leading provider of premium rig services, specialist engineering and design and land rig manufacture for the international oil and gas industry. Our breadth of services distinguishes us from the vast majority of international drilling contractors. </p>
 <br/>
 <br />
 <article>
@@ -18,7 +18,7 @@ export default function Innovations() {
     <p>
     While we are known for our superior safety and operational performance, the technology and innovation we bring to our equipment and drilling operations are proven to deliver outstanding long-term efficiencies – meaning tangible time and financial savings.
 
-It's this well of innovation that means choosing KCA Deutag offers you hard dollar value opportunities, both today and in the future.
+It's this well of innovation that means choosing PetroGas offers you hard dollar value opportunities, both today and in the future.
 
     </p>
   </section>
@@ -41,6 +41,10 @@ It's this well of innovation that means choosing KCA Deutag offers you hard doll
 .innovations h1{
   margin: 1em 0 0.2em 0;
 
+}
+
+.innovations h2{
+  color:grey;
 }
     `}</style>
     </Layout>
