@@ -21,27 +21,24 @@ const Nav = () => (
         </Link>
       </li>
       <li>
-        {" "}
         <Link href="/rigs">
           <a> Rigs</a>
-        </Link>{" "}
+        </Link>
       </li>
       <li>
-        {" "}
         <Link href="/innovations">
           <a> A well of Innovation</a>
-        </Link>{" "}
+        </Link>
       </li>
       <li>
-        {" "}
         <Link href="/careers">
           <a> Careers</a>
-        </Link>{" "}
+        </Link>
       </li>
       <li>
         <Link href="/investors">
           <a> Investors</a>
-        </Link>{" "}
+        </Link>
       </li>
       <li>
         <Link href="/media">

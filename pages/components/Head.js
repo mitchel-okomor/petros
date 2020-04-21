@@ -10,6 +10,8 @@ const Head = ({ }) => (
     <link rel="icon" href="favicon.jpg" sizes="16x16" type="image/png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,700" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
   </NextHead>
 )
 
