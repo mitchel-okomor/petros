@@ -46,6 +46,14 @@ It's this well of innovation that means choosing PetroGas offers you hard dollar
 .innovations h2{
   color:grey;
 }
+
+@media only screen and (max-width: 800px){
+  .innovations{
+    margin:1em;
+    padding-top:30px;
+  }
+}
+   
     `}</style>
     </Layout>
   );

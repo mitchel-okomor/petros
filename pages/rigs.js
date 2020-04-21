@@ -48,6 +48,13 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
 .rigs h2{
   color:grey;
 }
+@media only screen and (max-width: 800px){
+  .rigs{
+    margin:1em;
+    padding-top:30px;
+  }
+}
+   
     `}</style>
     </Layout>
   );

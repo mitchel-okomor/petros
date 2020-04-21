@@ -131,6 +131,14 @@ font-size: 2em;
     background-color: white;
     color: black;
   }
+
+  @media only screen and (max-width: 800px){
+  .media{
+    margin:1em;
+    padding-top:30px;
+  }
+}
+   
     `}</style>
     </Layout>
   );

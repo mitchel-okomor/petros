@@ -131,6 +131,8 @@ return(
         }
         .logo button {
           float: right;
+          height:35px;
+          width: 35px:
           color: white;
            font-size: 20px;
            margin-right: 3px;
@@ -170,6 +172,9 @@ return(
      text-decoration: none;
    }
    
+   .fa{
+     color: white;
+   }
       }
       @media only screen and (min-width: 800px){
         .logo button{

@@ -59,6 +59,12 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+@media only screen and (max-width: 800px){
+  .careers{
+    margin:1em;
+    padding-top:30px;
+  }
+}
    
     `}</style>
     </Layout>

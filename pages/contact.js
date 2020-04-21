@@ -75,6 +75,7 @@ E: info@kcadeutag.com
 @media only screen and (max-width: 800px) {
   .contact{
     margin: 1em;
+    padding-top:30px;
 }
 
 .contact h1{

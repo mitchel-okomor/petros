@@ -10,7 +10,7 @@ export default function Whoweare() {
         <h1> Who we are</h1>
         <img src="/whoweare.jpg" alt="Who we are" />
         <p>
-        PetroGas Oil & Construction Ltd is a leading provider of premium Oil and Gas and Construction services, specialist
+        PetroGas Group is a leading provider of premium Oil and Gas and Construction services, specialist
           engineering and design and constructions for the international
          industries. Our breadth of services distinguishes us from
           the vast majority of international contractors.
@@ -19,7 +19,7 @@ export default function Whoweare() {
         <article>
           <section>
             <p>
-              With over 130 years of experience, PetroGas Oil & Construction Ltd is one of the
+              With over 130 years of experience, PetroGas Group is one of the
               world’s leading drilling and engineering contractors working
               onshore and offshore with a focus on safety, quality and
               operational performance. We operate approximately 110 drilling
@@ -50,6 +50,13 @@ export default function Whoweare() {
         .who-we-are img {
           width: 100%;
         }
+        @media only screen and (max-width: 800px){
+  .who-we-are{
+    margin:1em;
+    padding-top:30px;
+  }
+}
+   
       `}</style>
     </Layout>
   );

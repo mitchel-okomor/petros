@@ -52,7 +52,13 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
 .investors h2{
   color:grey;
 }
-
+@media only screen and (max-width: 800px){
+  .investors{
+    margin:1em;
+    padding-top:30px;
+  }
+}
+   
     `}</style>
     </Layout>
   );
