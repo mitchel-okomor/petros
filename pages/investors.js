@@ -7,7 +7,6 @@ export default function Investors() {
       <div className="investors">
       <h2>Home > Investors</h2>
         <hr/>
-        <h1> Investors</h1>
         <img src="/investors.jpg" alt="Investors"/>
 <br/>
 <br />
@@ -15,25 +14,30 @@ export default function Investors() {
   <section>
     <h2>Investors</h2>
     <p>
-    PetroGas Group owns and operates a fleet of 77 high quality land rigs ranging from highly mobile units to large rigs capable of drilling extended reach wells. We operate in a wide range of environments, from the extreme temperatures of the Sahara to the remote and arctic conditions of Siberia.
-
-We have an ongoing rig building and upgrade programme which develops new and innovative rig designs helping us deliver our vision of operating safely, succeeding globally.
-
-We are also innovating the software and hardware of our existing rigs to improve performance and deliver value through cost efficient well construction.
-
-In addition, we offer the rental of a wide portfolio of high quality drilling and production equipment, maintained and certified in accordance with recognised industry standards and PetroGas's own worldwide standards. Our Equipment Rentals brochure can be found here.
-
-“PetroGas Group has a strong track record in delivering value for our clients through cost effective well construction.  Our focus is on meeting our clients’ goals for their drilling projects, whilst ensuring safe, effective, trouble-free operations. Our presence in most key energy regions and our focus on developing local personnel means we are well placed to continue to successfully deliver for our clients whilst developing local value and skills in the countries in which we operate.”
-
-
+    PetroGas Group is one of the world’s leading drilling and engineering contractors working onshore and offshore.  The group consists of four divisions: Land, Offshore, RDS and Bentec. It operates approximately 110 drilling rigs in 20 countries, employing staff in Africa, Europe, Russia, the Middle East, the Caspian Sea and Canada.
+ 
+<br />
+<br />
+PetroGas Group’s vision is to be recognised as the world’s most successful drilling and engineering contractor through measurable performance improvement, delivering safe, effective, trouble-free operations. 
     </p>
+    <br />
+    <hr />
+    <br />
+   <h2> Enquiries</h2>
+   <br />
+<h3>Jan Hetherington</h3>
+Head of Corporate Development & Treasury
+<br />Tel: +44 7451 278 898
+<br />Email: investor.relations@petrogasservices.com
+<br />
+<br />
+<hr />
   </section>
 </article>
 
       </div>
       <style jsx>{`
 .investors{
-    height: 100vh;
     margin: 5em;
 }
 .investors img{

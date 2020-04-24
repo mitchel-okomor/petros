@@ -4,7 +4,11 @@ import React, { Component } from 'react'
 class Header extends Component {
 constructor(props){
   super(props)
-  this.state={};
+  this.state={
+    navClass: "hide",
+      iconClass: "fa fa-bars",
+      buttontext: ""
+  };
 }
 
 
@@ -17,11 +21,16 @@ constructor(props){
   showNavBar = () =>{
     if(this.state.navClass== "hide")
     this.setState({
-      navClass: "show"
+       navClass: "show",
+        iconClass: "",
+         buttontext: "X"
+     
     })
     else{
       this.setState({
-        navClass: "hide"
+          navClass: "hide",
+      iconClass: "fa fa-bars",
+      buttontext: ""
       }) 
     }
     console.log("show navbar");
@@ -34,7 +43,7 @@ return(
   <div className="logo">
     <img src="/petro-logo.jpg" alt="Logo"></img>
 
-<button onClick={() => this.showNavBar()}><i className="fa fa-bars"></i>
+<button onClick={() => this.showNavBar()}><i className={`${this.state.iconClass}`}></i>{this.state.buttontext}
 </button>
   </div>
   <ul className={this.state.navClass}>
@@ -136,6 +145,7 @@ return(
           color: white;
            font-size: 20px;
            margin-right: 3px;
+           color:white;
       cursor: pointer;
       background-color:  rgb(48, 48, 48);
         }
@@ -179,6 +189,7 @@ return(
       @media only screen and (min-width: 800px){
         .logo button{
         display: none;
+     
       }
       .logo label{ 
         display: none;

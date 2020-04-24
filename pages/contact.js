@@ -12,33 +12,38 @@ export default function Contact() {
 <div id="office1">
   <h3>United Kingdom</h3>
   <p>
- PetroGas Group Headquarters & Registered Office:
-Bankhead Drive, City South Office Park,
-Portlethen, Aberdeenshire, AB12 4XX
-Registered in Scotland No. 31961.
+ PetroGas Group Office:
+Burnage, Levensulme M19
 <br />
 <br />
-T: +44 1224 987 000
+T: +44 7451 278 898
 <br />
-E: info@kcadeutag.com
+E: info@petrogasservices.com
+<br />
+PO Box 971638, El Paso, TX.
+<br />
+79997-1638
+<br />
++1 409 287 6101
   </p>
-  <Link href="#" ><a className="main-read-more">The KCA Deutag Way</a></Link>
 </div>
 
 <div id="office2">
-  <h3>Germany</h3>
+  <h3>Belgium</h3>
   <p>
-  PetroGas Group Headquarters & Registered Office:
-Bankhead Drive, City South Office Park,
-Portlethen, Aberdeenshire, AB12 4XX
-Registered in Scotland No. 31961.
+  PetroGas Group Office:
 <br/>
+Street: Luchthavenlaan 409. City:
 <br />
-T: +44 1224 987 000
+Millen. State/province/area: Limburg
 <br />
-E: info@kcadeutag.com
+Belgium
+<br />
+<br />
+T: +32 460 220 832
+<br />
+E: info@petrogasservices.com
   </p>
-  <Link href="#" ><a className="main-read-more">The PetroGas Way</a></Link>
 </div>
        </div>
       </div>

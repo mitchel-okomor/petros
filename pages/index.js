@@ -36,25 +36,25 @@ export default function Index() {
               <img src="/offshore.png" alt="" />
               <h3>Offshore</h3>
               <p>Platform drilling operations & maintenance</p>
-              <img id="icon-img" src="/logo-KCA.png" alt="icon" />
+              <img id="icon-img" src="" alt="" />
             </li>
             <li>
               <img src="/land.png" alt="" />
               <h3>Land</h3>
               <p>Platform drilling operations & maintenance</p>
-              <img id="icon-img" src="/logo-KCA.png" alt="icon" />
+              <img id="icon-img" src="" alt="" />
             </li>
             <li>
               <img src="/engineering.png" alt="" />
               <h3>Engineering</h3>
               <p>Platform drilling operations & maintenance</p>
-              <img id="icon-img" src="/logo-KCA.png" alt="icon" />
+              <img id="icon-img" src="" alt="" />
             </li>
             <li>
               <img src="/manufacturing.png" alt="" />
               <h3>Manufacturing</h3>
               <p>Platform drilling operations & maintenance</p>
-              <img id="icon-img" src="/logo-KCA.png" alt="icon" />
+              <img id="icon-img" src="" alt="" />
             </li>
           </ul>
         </div>
@@ -63,6 +63,8 @@ export default function Index() {
           <h2>Latest News</h2>
           <ul>
             <li>
+            <img src="/petro-logo.jpg" alt="" />
+            <br />
               <Link href="#">
                 <a>
                   CNRI awards PetroGas Group a multi-million
@@ -71,7 +73,10 @@ export default function Index() {
                 </a>
               </Link>
             </li>
+            <br /> <br />
             <li>
+            <img src="/petro-logo.jpg" alt="" />
+            <br />
               <Link href="#">
                 <a>
                 PetroGas Group secures $460m of land drilling
@@ -80,7 +85,10 @@ export default function Index() {
                 </a>
               </Link>
             </li>
+            <br /> <br />
             <li>
+            <img src="/petro-logo.jpg" alt="" />
+            <br />
               <Link href="#">
                 <a>
                 PetroGas Group wins multi-million euro
@@ -89,10 +97,24 @@ export default function Index() {
                 </a>
               </Link>
             </li>
+            <br /> <br />
+            <li>
+            <img src="/petro-logo.jpg" alt="" />
+            <br />
+              <Link href="#">
+                <a>
+                PetroGas Group wins multi-million euro
+                  contract for seven 320t cluster slider drilling rigs
+                  <p>2 December 2019</p>
+                </a>
+              </Link>
+            </li>
+
           </ul>
           <Link href="#" >
             <a className="viel-all-news">View all news</a>
           </Link>
+         
         </div>
       </main>
 
@@ -163,6 +185,8 @@ text-align:center;
 
 }
 .main-work ul{
+  padding-top: 3em;
+  padding-left: 0;
   display flex;
    width: 70%;
    justify-content: space-between;
@@ -219,10 +243,12 @@ height:30px;
  
 
 #news{
+  box-sizing: border-box;
   margin:auto;
   text-align:center;
      min-height:400px;
-      width:70%;
+      width:100%;
+      padding: 1em;
 }
   #news ul{
     display:flex;
@@ -232,12 +258,20 @@ margin:0;
 padding:0;
     
   }
+  #news li{
+    width: 25%;
+    background-color:blue;
+  }
 
- 
+ #news ul li img{
+   padding-bottom: 0.8em;
+   width:15em;
+   height: 10em;
+ }
   #news ul li a{
     margin: 0;
     padding:0;
-    width:15em;
+    width:18em;
     background-color: white;
     color: black;
   }
@@ -305,24 +339,39 @@ text-align:center;
 }
 
 .main-work ul{
-margin-left: 5em;
+text-align: center;
+margin:auto;
+
+
 }
 
 .main-work li{
-  display:block;
+  padding-left:5em;
+  padding-right:5em;
+  margin:auto;
+  text-align:center;
+  display: block;
+
 }
 
 #news{
+  box-sizing: border-box;
   margin:auto;
   text-align:center;
      min-height:400px;
-      width:100%;
       padding-bottom: 20px;
 }
 #news ul{
+  padding-left:0;
+  margin:auto;
+  text-align:center;
   display: block;
 }
 #news ul li{
+  padding-left:0;
+  width:100%;
+  margin:auto;
+  text-align:center;
   display: block;
 }
   }

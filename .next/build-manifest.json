@@ -27,18 +27,6 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/innovations": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/services": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/whoweare": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

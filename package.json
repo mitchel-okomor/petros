@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mitchel Okomor",
   "license": "ISC",
   "dependencies": {
     "next": "^9.3.5",

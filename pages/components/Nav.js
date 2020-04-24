@@ -3,7 +3,7 @@ import Link from "next/link";
 const Nav = () => (
   
   <nav>
-    <ul>
+    <ul className="list">
     <li id="home" className="active">
         <Link href="/">
           <a> Home</a>
@@ -63,6 +63,7 @@ const Nav = () => (
       }
       @media only screen and (max-width: 800px) {
         nav {
+          box-sizing:border-box;
          display: none;
           width: 100%;
           margin:auto;
@@ -75,7 +76,6 @@ const Nav = () => (
         }
 
         nav ul {
-       
           margin: auto;
           width: 100%;
           height: auto;
@@ -104,9 +104,11 @@ const Nav = () => (
       }
       nav a:hover {
         color: red;
+        color:white;
       }
       nav li:hover {
         background-color: red;
+        color:white;
         border-radius:5px;
       }
       nav a {
@@ -127,9 +129,11 @@ const Nav = () => (
 
       nav a:hover {
         color: red;
+        color:white;
       }
       nav li:hover {
         background-color: red;
+        color:white;
         border-radius:5px;
       }
 
@@ -141,6 +145,7 @@ const Nav = () => (
         background-color: red;
       }
       nav ul {
+        padding-left:0;
         justify-content: space-between;
         margin: 0em 2em 0em 2em;
         display: flex;
@@ -151,6 +156,7 @@ const Nav = () => (
         text-align: center;
       }
       nav ul li {
+        padding-left:0;
         min-width: 5em;
         text-align: center;
       }

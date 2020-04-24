@@ -6,29 +6,25 @@ const Footer = () => {
 
       <div id="address">
         <p>
-          PetroGas Group Headquarters & Registered Office <br></br>
-          Bankhead Drive, City South Office Park,<br></br>
-          Portlethen, Aberdeenshire<br></br>
-          AB12 4XX
+          PetroGas Group Office <br></br>
+         Burnage, Levensulme M19, <br></br>
+         United Kingdom<br></br>
+          +44 7451 278 898
         </p><br></br>
-        <Link href="#">
-          <a id="search-locations">Search locations</a>
-        </Link>
+        
       </div>
       <div id="second-div">
         <p>
-          Tel: +44 1224 987 000 <br></br>Email: info@kcadeutag.com
+          Po Box 971638, El Paso, Tx <br></br> +14092876101
         </p>
         <a href="#" className="fa fa-linkedin"></a>
       </div>
       <div id="last-div">
-        Email: info@kcadeutag.com<br></br>© PetroGas 2020<br></br>
-        Registered in Scotland No 31961.
+        Email: info@petrogasservices.com<br></br>© PetroGas 2020<br></br>
         <br></br>
         <br></br>
         Terms and Conditions<br></br>
         Privacy Statement<br></br>
-        Modern Slavery Statement
       </div>
    
     </div>
@@ -41,6 +37,8 @@ const Footer = () => {
             display: flex;
             flex-wrap: wrap;
             min-height: 200px;
+            padding-left: 80px;
+            padding-right: 80px;
             width:100%;
             background-color: rgb(48, 48, 48);
             color: white;
@@ -91,6 +89,7 @@ const Footer = () => {
             text-align: center;
             text-decoration: none;
             margin: auto;
+            color: grey;
             background-color: white;
           }
 
