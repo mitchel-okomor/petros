@@ -52,6 +52,7 @@ const Nav = () => (
     </ul>
     <style jsx>{`
       nav {
+        font-family: Monospace, Arial;
         position: absolute;
         width: 100%;
         display: flex;
@@ -63,7 +64,7 @@ const Nav = () => (
       }
       @media only screen and (max-width: 800px) {
         nav {
-          box-sizing:border-box;
+        font-family: Monospace, Arial;
          display: none;
           width: 100%;
           margin:auto;
