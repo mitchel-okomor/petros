@@ -13,7 +13,7 @@ export default function Index() {
             Discover how our technology and innovations are transforming the Oil
             and Gas and Construction operations throughout the industry.
           </p>
-          <Link href="#">
+          <Link href="/innovations">
             <a className="read-more">Find out more</a>
           </Link>
         </div>
@@ -25,7 +25,7 @@ export default function Index() {
             working onshore and offshore with a focus on safety, quality and
             performance.
           </p>
-          <Link href="#">
+          <Link href="/whoweare">
             <a className="main-read-more">The PetroGas Way</a>
           </Link>
         </div>
@@ -123,7 +123,7 @@ export default function Index() {
             </li>
 
           </ul>
-          <Link href="#" >
+          <Link href="/media" >
             <a className="viel-all-news">View all news</a>
           </Link>
          
@@ -286,8 +286,8 @@ padding:0;
 
  #news ul li img{
    padding-bottom: 0.8em;
-   width:15em;
-   height: 10em;
+   width:8em;
+   height: 4em;
  }
   #news ul li a{
     margin: 0;

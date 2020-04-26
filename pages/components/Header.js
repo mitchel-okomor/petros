@@ -42,7 +42,7 @@ return(
   <header className="header">
   <div className="logo">
     <img src="/petro-logo.jpg" alt="Logo"></img>
-
+<span>PetroGas</span>
 <button onClick={() => this.showNavBar()}><i className={`${this.state.iconClass}`}></i>{this.state.buttontext}
 </button>
   </div>
@@ -123,7 +123,7 @@ return(
           box-sizing: border-box;
           display: block;
           width: 100%;
-          height: 40px;
+          height: 45px;
           padding:2px;
           z-index: 3;
           background-color:  rgb(48, 48, 48);
@@ -185,6 +185,17 @@ return(
    .fa{
      color: white;
    }
+
+   
+   header ul, header span{
+     font-family: monospace;
+     float: left;
+        color:red;
+        font-size:1.8em;
+        font-weight: bold;
+        margin-left: .8em;
+        margin-top: .4em;
+      } 
       }
       @media only screen and (min-width: 800px){
         .logo button{
@@ -195,9 +206,11 @@ return(
         display: none;
 
       }
-      header ul{
+      header ul, header span{
         display:none;
       }
+
+
       }
     `}
   </style>
