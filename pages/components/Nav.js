@@ -25,8 +25,8 @@ const Nav = () => (
         </Link>
       </li>
       <li>
-        <Link href="/innovations">
-          <a> A well of Innovation</a>
+        <Link href="/thepetrogasway">
+          <a> The PetroGas Way</a>
         </Link>
       </li>
       <li>
@@ -162,11 +162,15 @@ const Nav = () => (
         text-align: center;
       }
       #home{
+        float: left;
         font-size:1.2em;
         font-weight: bold;
         margin-right: 0em 10em 0em 0em;
         color:red;
+        margin-right:5em;
       }
+    
+
     `}</style>
   </nav>
 );

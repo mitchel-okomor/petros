@@ -15,6 +15,7 @@ const Layout = props => (
     <style jsx global>{`
 *{
   margin:0;
+  padding:0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -35,6 +36,9 @@ li{
        color: black;
   border: '1px solid #DDD';
 box-sizing: border-box;
+     }
+     hr{
+       border: .05em solid grey;
      }
       
     `}</style>

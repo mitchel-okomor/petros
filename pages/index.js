@@ -13,9 +13,6 @@ export default function Index() {
             Discover how our technology and innovations are transforming the Oil
             and Gas and Construction operations throughout the industry.
           </p>
-          <Link href="/innovations">
-            <a className="read-more">Find out more</a>
-          </Link>
         </div>
 
         <div className="main-text">
@@ -25,14 +22,14 @@ export default function Index() {
             working onshore and offshore with a focus on safety, quality and
             performance.
           </p>
-          <Link href="/whoweare">
+          <Link href="/thepetrogasway">
             <a className="main-read-more">The PetroGas Way</a>
           </Link>
         </div>
 
         <div className="main-work">
-          <ul>
-            <li>
+         
+            <div>
             <Link href="/services"><a>
               <img src="/newoffshore.png" alt="" />
               <h3>Offshore</h3>
@@ -40,8 +37,8 @@ export default function Index() {
               <img id="icon-img" src="" alt="" />
              </a>
               </Link>
-            </li>
-            <li>
+            </div>
+            <div>
             <Link href="/services"><a>
               <img src="/land.png" alt="" />
               <h3>Land</h3>
@@ -49,8 +46,8 @@ export default function Index() {
               <img id="icon-img" src="" alt="" />
               </a>
               </Link>
-            </li>
-            <li>
+            </div>
+            <div>
             <Link href="/services"><a>
               <img src="/engineering.png" alt="" />
               <h3>Engineering</h3>
@@ -58,8 +55,8 @@ export default function Index() {
               <img id="icon-img" src="" alt="" />
               </a>
               </Link>
-            </li>
-            <li>
+            </div>
+            <div>
             <Link href="/services"><a>
               <img src="/manufacturing.png" alt="" />
               <h3>Manufacturing</h3>
@@ -67,21 +64,33 @@ export default function Index() {
               <img id="icon-img" src="" alt="" />
               </a>
               </Link>
-            </li>
-          </ul>
+            </div>
+         
         </div>
-
+<br />
+<br />
         <div id="news">
           <h2>Latest News</h2>
           <ul>
             <li>
             <img src="/petro-logo.jpg" alt="" />
             <br />
-              <Link href="#">
+              <Link href="/media">
                 <a>
-                  CNRI awards PetroGas Group a multi-million
+                Contract Awarded to PetroGas and Benny William Consults by Federal Ministry of Construction, United Kingdom.
+                  <p>27 April 2020</p>
+                </a>
+              </Link>
+            </li>
+            <br /> <br />
+            <li>
+            <img src="/petro-logo.jpg" alt="" />
+            <br />
+              <Link href="/media">
+                <a>
+                CNRI awards PetroGas Group a multi-million
                   pound drilling contract for three UK North Sea platforms
-                  <p>7 April 2018</p>
+                  <p>7 April 2019</p>
                 </a>
               </Link>
             </li>
@@ -89,23 +98,11 @@ export default function Index() {
             <li>
             <img src="/petro-logo.jpg" alt="" />
             <br />
-              <Link href="#">
-                <a>
-                PetroGas Group secures $460m of land drilling
-                  contracts in the Middle East, Africa and Europe
-                  <p>25 October 2018</p>
-                </a>
-              </Link>
-            </li>
-            <br /> <br />
-            <li>
-            <img src="/petro-logo.jpg" alt="" />
-            <br />
-              <Link href="#">
+              <Link href="/media">
                 <a>
                 PetroGas Group wins multi-million euro
                   contract for seven 320t cluster slider drilling rigs
-                  <p>2 December 2019</p>
+                  <p>2 December 2018</p>
                 </a>
               </Link>
             </li>
@@ -113,11 +110,11 @@ export default function Index() {
             <li>
             <img src="/petro-logo.jpg" alt="" />
             <br />
-              <Link href="#">
+              <Link href="/media">
                 <a>
                 PetroGas Group wins multi-million euro
                   contract for seven 320t cluster slider drilling rigs
-                  <p>2 December 2019</p>
+                  <p>2 December 2018</p>
                 </a>
               </Link>
             </li>
@@ -180,7 +177,7 @@ width:100%;}
     padding-top: 100px;
     margin:auto;
    text-align:center;
-  min-height:250px;
+  min-height:25em;
  
 }
 .main-text p{
@@ -192,37 +189,38 @@ text-align:center;
 
 .main-work{
   background-color:	rgb(96,96,96);
+  box-sizing: border-box;
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: auto auto auto auto;
   min-height: 400px;
   width: 100%;
-  text-align:center;
+  text-align: center;
   margin: auto;
+  padding-left:3em;
+  padding-right:3em;
+  padding-top:3em
+}
 
-}
-.main-work ul{
-  padding-top: 3em;
-  padding-left: 0;
-  display flex;
-   width: 70%;
-   justify-content: space-between;
-   margin: auto;
-   text-align: center;
-  flex-wrap: wrap;
-font-size:15px;
-}
-.main-work ul li{
-  list-style: none;
+.main-work div{
+  
 margin:20px;
 max-width:12em;
 }
+.main-work h3::before{
+  content:"►︎";
+  color: red;
+  margin-right: .3em;
+}
 
-.main-work ul li img{
+.main-work img{
 width:120px;
 height:120px;
 }
-.main-work ul li p{
+.main-work  p{
 font-size:15px;
 }
-.main-work ul li a{
+.main-work  a{
   width:100%;
   height:100%;
   background: transparent;
@@ -240,7 +238,7 @@ height:30px;
     border-radius: 4px;
     font-size: 17px;
     width: 200px;
-    height:30px;
+    height:45px;
     text-decoration: none;
  padding-top: 10px;
  margin-top 30px;
@@ -286,7 +284,7 @@ padding:0;
 
  #news ul li img{
    padding-bottom: 0.8em;
-   width:8em;
+   width:7em;
    height: 4em;
  }
   #news ul li a{
@@ -295,6 +293,11 @@ padding:0;
     width:18em;
     background-color: white;
     color: black;
+  }
+  #news ul li a::before{
+    content: "►︎";
+    color: red;
+    margin-right: .3em;
   }
   #news ul li a:hover{
   text-decoration: underline;
@@ -316,7 +319,9 @@ font-size: 2em;
     main {
   background-size: 100% 20em;
 min-height: 60px;
-width:100%;}
+width:100%;
+
+}
 
 
 .intro{
@@ -356,24 +361,17 @@ text-align:center;
   width: 100%;
   text-align:center;
   margin: auto;
-
+padding-top:2em
 }
 
-.main-work ul{
+.main-work div{
 text-align: center;
 margin:auto;
 
 
 }
 
-.main-work li{
-  padding-left:5em;
-  padding-right:5em;
-  margin:auto;
-  text-align:center;
-  display: block;
 
-}
 
 #news{
   box-sizing: border-box;

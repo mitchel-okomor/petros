@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <Layout>
       <div className="services">
-        <h2>Home > Business and Services</h2>
+        <h5>Home > Business and Services</h5>
         <hr/>
         <h1> Business and Services</h1>
         <img src="/business.jpg" alt="business and services"/>
@@ -33,8 +33,6 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
 
 <br />
 <hr />
-<br />
-<br />
   </section>
 
   <section >
@@ -83,8 +81,6 @@ Our front line safety tools are simple and fit for purpose
    
 <br />
 <hr />
-<br />
- <br />
   </section>
 
   <section >
@@ -113,9 +109,7 @@ Senior Vice President, RDS
 <br />
 <br />For more information please visit our website at <a href="www.rdsoil.com">www.rdsoil.com</a>
 <br />
-<br />
 <hr />
-<br />
 
     </p>
   </section>
@@ -182,6 +176,11 @@ article section h4{
     margin:1em;
     padding-top:30px;
   }
+  article section img{
+width:100%;
+height:13em;
+margin-bottom:0.8em;
+}
 }
    
     `}</style>

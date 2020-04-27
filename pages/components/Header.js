@@ -41,8 +41,8 @@ render(){
 return(
   <header className="header">
   <div className="logo">
-    <img src="/petro-logo.jpg" alt="Logo"></img>
-<span>PetroGas</span>
+    <img id="logo-img" src="/petro-logo.jpg" alt="Logo"></img>
+<img id="header-logo" src="/header-logo.jpg" alt="Logo"/>
 <button onClick={() => this.showNavBar()}><i className={`${this.state.iconClass}`}></i>{this.state.buttontext}
 </button>
   </div>
@@ -68,8 +68,8 @@ return(
       </Link>
     </li>
     <li>
-      <Link href="/innovations">
-        <a> A well of Innovation</a>
+      <Link href="/thepetrogasway">
+        <a> The PetroGas Way</a>
       </Link>
     </li>
     <li>
@@ -102,6 +102,7 @@ return(
         margin: auto;
         text-align: center;
       }
+  
       .logo {
         height: 100%;
         z-index: 1;
@@ -116,13 +117,20 @@ return(
       .hide{
         display:none
       }
+
+      #header-logo{
+        float:left;
+     display: inline;
+     width:100px;
+     height:35px;
+      } 
       @media only screen and (max-width: 800px){
         header{
           position: fixed;
           top:0;
           box-sizing: border-box;
           display: block;
-          width: 100%;
+          width: 100vw;
           height: 45px;
           padding:2px;
           z-index: 3;
@@ -131,7 +139,7 @@ return(
         .logo{
           width: 100%;
         }
-        .logo img{
+        #logo-img{
           display:none;
           float: left;
           width: 80px;
@@ -187,8 +195,8 @@ return(
    }
 
    
-   header ul, header span{
-     font-family: monospace;
+   .header-logo{
+     display: inline;
      float: left;
         color:red;
         font-size:1.8em;
@@ -209,7 +217,9 @@ return(
       header ul, header span{
         display:none;
       }
-
+      #header-logo{
+display: none;
+      }
 
       }
     `}

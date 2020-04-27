@@ -5,7 +5,7 @@ export default function Careers() {
   return (
     <Layout>
       <div className="careers">
-        <h2>Home > Careers</h2>
+        <h5>Home > Careers</h5>
         <hr />
         <br />
         <br />

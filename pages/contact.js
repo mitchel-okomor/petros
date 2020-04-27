@@ -5,21 +5,29 @@ export default function Contact() {
   return (
     <Layout>
       <div className="contact">
-      <h2>Home > Contact us</h2>
+      <h5>Home > Contact us</h5>
        <hr/>
        <h1>Our addresses</h1> 
        <div className="address">
+
 <div id="office1">
   <h3>United Kingdom</h3>
   <p>
  PetroGas Group Office:
 Burnage, Levensulme M19
 <br />
-<br />
 T: +44 7451 278 898
 <br />
 E: info@petrogasservices.com
 <br />
+  </p>
+</div>
+
+<div id="office2">
+  <h3>Texas, USA</h3>
+  <p>
+  PetroGas Group Office:
+<br/>
 PO Box 971638, El Paso, TX.
 <br />
 79997-1638
@@ -28,7 +36,8 @@ PO Box 971638, El Paso, TX.
   </p>
 </div>
 
-<div id="office2">
+
+<div id="office3">
   <h3>Belgium</h3>
   <p>
   PetroGas Group Office:
@@ -39,7 +48,6 @@ Millen. State/province/area: Limburg
 <br />
 Belgium
 <br />
-<br />
 T: +32 460 220 832
 <br />
 E: info@petrogasservices.com
@@ -48,6 +56,11 @@ E: info@petrogasservices.com
        </div>
       </div>
       <style jsx>{`
+        .address{
+          display: grid;
+          grid-template-columns: auto auto auto;
+          grid-column-gap: 2em;
+        }
 .contact{
     margin: 5em;
 }
@@ -55,6 +68,8 @@ E: info@petrogasservices.com
 .contact h1{
   text-align:center;
   margin-top: 2em;
+  margin-bottom:2em;
+
 }
 .contact h2{
   color:grey;
@@ -62,20 +77,8 @@ E: info@petrogasservices.com
 .contact h3{
   color:grey;
 }
-.address{
-  display: flex;
-  margin: auto;
-}
-#office1{
-  width: 30%;
-  margin: 2em;
-  padding: 2em;
-}
-#office2{
-  width:30%;
-  margin: 2em;
-  padding: 2em;
-}
+
+
 
 @media only screen and (max-width: 800px) {
   .contact{
@@ -85,7 +88,7 @@ E: info@petrogasservices.com
 
 .contact h1{
   text-align:center;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 .contact h3{
   color:grey;

@@ -5,7 +5,7 @@ export default function Rigs() {
   return (
     <Layout>
       <div className="rigs">
-      <h2>Home > Rigs</h2>
+      <h5>Home > Rigs</h5>
         <hr/>
         <h1>Rigs</h1>
         <img src="/rigs.jpg" alt="rigs"/>
@@ -13,7 +13,7 @@ export default function Rigs() {
 <br />
 <article>
   <section>
-    <h2>Rigs</h2>
+ 
     <p>
     PetroGas Group owns and operates a fleet of 77 high quality land rigs ranging from highly mobile units to large rigs capable of drilling extended reach wells. We operate in a wide range of environments, from the extreme temperatures of the Sahara to the remote and arctic conditions of Siberia.
 We have an ongoing rig building and upgrade programme which develops new and innovative rig designs helping us deliver our vision of operating safely, succeeding globally.

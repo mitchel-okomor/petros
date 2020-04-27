@@ -1,11 +1,10 @@
 import Layout from './components/MyLayout';
-import Link from 'next/link';
 
 export default function Media() {
   return (
     <Layout>
       <div className="media">
-      <h2>Home > Media> News</h2>
+      <h5>Home > Media> News</h5>
         <hr/>
         <h1> Media</h1>
         <img src="/business.jpg" alt="business and services"/>
@@ -34,33 +33,23 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
       <h2>Latest News</h2>
       <ul>
         <li>
-          <Link href="#">
-            <a>
-              CNRI awards PetroGas Group a multi-million pound drilling contract for
-              three UK North Sea platforms<p>2 December 2019</p>
-            </a>
-          </Link>
+          <h3>Contract Awarded to PetroGas and Benny William Consults</h3>
+            <p> <b>Contractor</b>: George Gales
+              <br />
+             <b>Contract Amount</b> :   Ten Million US Dollars
+              <br />
+             <b> Beneficiary</b>:   PETROGAS & BENNY WILLIAM CONSULTANTS
+              <br />
+              <b> Ministry Involved</b> :   FEDERAL MINISTRY OF CONSTRUCTION
+              <br />
+              <b>Contract Desccription</b>:   Construction
+              <br />
+              <b> Contract Location</b>:  United Kingdom
+              </p> 
+              <p>27 April 2020</p>
         </li>
-        <li>
-          <Link href="#">
-            <a>
-            PetroGas Group secures $460m of land drilling contracts in the Middle
-              East, Africa and Europe<p>2 December 2019</p>
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link href="#">
-            <a>
-            PetroGas Group wins multi-million euro contract for seven 320t cluster
-              slider drilling rigs<p>2 December 2019</p>
-            </a>
-          </Link>
-        </li>
+       
       </ul>
-      <Link href="#" className="viel-all-news">
-        <a>View all news</a>
-      </Link>
     </div>
   </section>
 </article>
@@ -76,8 +65,8 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
 }
 
 .media p{
-  font-size: 1em;
-  line-heigth: 1em;
+  font-size: 1.2em;
+  line-height: 1.4em;
   margin: 1em 0 1em 0;
 }
 .media h1{
@@ -91,34 +80,32 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
 
 .news{
   margin:auto;
-  text-align:center;
      min-height:400px;
-      width:70%;
+      width:100%;
+    
+
 }
   .news ul{
-    display:flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 margin:0;
 padding:0;
-    
   }
 
   .news ul li{
     list-style: none;
-    margin: 0;
+    margin-bottom: 2em;
     padding:0;
+    margin:0;
+    box-shadow: 1px 1px gray;
+
   }
-  .news ul li a{
-    margin: 0;
-    padding:0;
-    width:15em;
-    background-color: white;
-    color: black;
-  }
-  .news ul li a:hover{
-  text-decoration: underline;
-  }
+
+ .news ul li h3 ::before{
+  content:"►︎";
+  color: red;
+  margin-right: .3em;
+}
+  
 .news h2{
   margin: 30px;
   padding: 0;
@@ -127,7 +114,7 @@ font-size: 2em;
 .news p{
     margin: 8px;
     padding:8px;
-    width:wrap-content;
+    line-height:1.5em;
     background-color: white;
     color: black;
   }

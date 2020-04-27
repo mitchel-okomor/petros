@@ -6,29 +6,25 @@ const Footer = () => {
 
       <div id="address">
         <p>
-          PetroGas Group Office <br></br>
+          PetroGas Group Office, <br></br>
          Burnage, Levensulme M19, <br></br>
-         United Kingdom<br></br>
+         United Kingdom.<br></br>
           +44 7451 278 898
         </p><br></br>
         
       </div>
       <div id="second-div">
         <p>
-          Po Box 971638, El Paso, Tx <br></br> +14092876101
+          PO Box 971638, El Paso, Tx <br></br> +14092876101
         </p>
-        <a href="#" className="fa fa-linkedin"></a>
+      
       </div>
       <div id="last-div">
-        Email: info@petrogasservices.com<br></br>© PetroGas 2020<br></br>
-        <br></br>
-        <br></br>
-        Terms and Conditions<br></br>
-        Privacy Statement<br></br>
+        Email: info@petrogasservices.com<br />
       </div>
    
     </div>
-     
+    <div className="copyright">© PetroGas 2020</div> 
       <style jsx>
         {`
 
@@ -36,7 +32,7 @@ const Footer = () => {
             box-sizing:border-box;
             display: flex;
             flex-wrap: wrap;
-            min-height: 200px;
+            min-height: 160px;
             padding-left: 80px;
             padding-right: 80px;
             width:100%;
@@ -48,19 +44,30 @@ const Footer = () => {
              justify-content: space-between;
           }
          
-
+.copyright{
+  background-color: rgb(48, 48, 48);
+text-align: center;
+margin: auto;
+color: white;
+padding-bottom: .9em;
+}
           #footer div{
               margin: 20px;
+              font-size: 1.2em;
+
+
           }
 
           #address {
             float: left;
+            font-size: 1.2em;
+
           }
           #address a {
             display:inline-block;
             width: 200px;
     height:30px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-align:center;
     margin:auto;
             background-color: white;
@@ -72,13 +79,11 @@ const Footer = () => {
 
           #last-div {
             float: right;
-          }
-
-          #search-locations{
-            font-size: 1.1em;
-            width:auto;
+            font-size: 1.2em;
 
           }
+
+
 
 
           .fa {

@@ -5,7 +5,7 @@ export default function Investors() {
   return (
     <Layout>
       <div className="investors">
-      <h2>Home > Investors</h2>
+      <h5>Home > Investors</h5>
         <hr/>
         <img src="/investors.jpg" alt="Investors"/>
 <br/>
@@ -25,9 +25,9 @@ PetroGas Group’s vision is to be recognised as the world’s most successful d
     <br />
    <h2> Enquiries</h2>
    <br />
-<h3>Jan Hetherington</h3>
+<h3>Mabel Hartman</h3>
 Head of Corporate Development & Treasury
-<br />Tel: +44 7451 278 898
+<br />Tel: +44 2030 957 641
 <br />Email: investor.relations@petrogasservices.com
 <br />
 <br />
