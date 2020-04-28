@@ -6,28 +6,18 @@ export default function Media() {
       <div className="media">
       <h5>Home > Media> News</h5>
         <hr/>
-        <h1> Media</h1>
+       
         <img src="/business.jpg" alt="business and services"/>
+        <p>Welcome to our media centre.  Stay up to date with the latest news from KCA Deutag.  If you are a journalist and have a media enquiry please contact:
+</p>
+PetroGas Group Head Office, <br />
+         United Kingdom.<br />
+        Tel:  +44 7451 278 898 <br />
+        Email: communications@petrogasservices.com
 <br/>
 <br />
 <article>
-  <section>
-    <h2>Media</h2>
-    <p>
-
-    PetroGas Group owns and operates a fleet of 77 high quality land rigs ranging from highly mobile units to large rigs capable of drilling extended reach wells. We operate in a wide range of environments, from the extreme temperatures of the Sahara to the remote and arctic conditions of Siberia.
-
-We have an ongoing rig building and upgrade programme which develops new and innovative rig designs helping us deliver our vision of operating safely, succeeding globally.
-
-We are also innovating the software and hardware of our existing rigs to improve performance and deliver value through cost efficient well construction.
-
-In addition, we offer the rental of a wide portfolio of high quality drilling and production equipment, maintained and certified in accordance with recognised industry standards and PetroGas's own worldwide standards. Our Equipment Rentals brochure can be found here.
-
-“PetroGas Group has a strong track record in delivering value for our clients through cost effective well construction.  Our focus is on meeting our clients’ goals for their drilling projects, whilst ensuring safe, effective, trouble-free operations. Our presence in most key energy regions and our focus on developing local personnel means we are well placed to continue to successfully deliver for our clients whilst developing local value and skills in the countries in which we operate.”
-
-
-    </p>
-  </section>
+ 
   <section>
   <div className="news">
       <h2>Latest News</h2>

@@ -149,7 +149,7 @@ return(
         .logo button {
           float: right;
           height:35px;
-          width: 35px:
+          width: 35px;
           color: white;
            font-size: 20px;
            margin-right: 3px;

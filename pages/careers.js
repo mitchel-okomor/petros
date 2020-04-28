@@ -7,9 +7,7 @@ export default function Careers() {
       <div className="careers">
         <h5>Home > Careers</h5>
         <hr />
-        <br />
-        <br />
-        <h1>Why work for PetroGas Group</h1>
+      <h1>Why work for PetroGas Group</h1>
         <br />
         <br />
         <img src="/careers.jpg" alt="career Image"/>
@@ -45,6 +43,10 @@ export default function Careers() {
           .careers {
             margin: 1em;
             padding-top: 30px;
+          }
+
+          .careers img{
+            width: 100%;
           }
         }
       `}</style>

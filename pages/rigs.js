@@ -28,7 +28,6 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
       </div>
       <style jsx>{`
 .rigs{
-    height: 100vh;
     margin: 5em;
 }
 

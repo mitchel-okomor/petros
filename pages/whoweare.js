@@ -34,7 +34,7 @@ export default function Whoweare() {
         <section className="values">
         <div>
             <p>
-            PetroGas Group has four world class divisions which provide premium rig services, specialist engineering and design, and land rig manufacture. These are <span>Land, Offshore, Bentec and</span> <span>RDS</span>.  
+            PetroGas Group has four world class divisions which provide premium rig services, specialist engineering and design, and land rig manufacture. These are Land, Offshore, Bentec and RDS.  
 </p>
 <p>
 Our aim is to be recognised as the world’s most successful drilling and engineering contractor through measurable performance improvement, delivering safe, effective and trouble-free operations.
@@ -47,7 +47,7 @@ PetroGas Group's corporate headquarters are in Aberdeen where the Land, Offshore
             <p>
             We have offices in all of our key markets and countries of operation. and a very strong presence in the Middle East where we are one of the largest owners and operators of drilling rigs.
 </p><p>
-At the heart of our operations are our <span>Core Values</span> and the <span>PetroGas Way</span>which define the behaviours of our employees and how we work as a company. We are focused on training and retaining our highly-skilled employees, maintaining our strong health and safety track record and ensuring operational and technical integrity.
+At the heart of our operations are our Core Values and the PetroGas Way which define the behaviours of our employees and how we work as a company. We are focused on training and retaining our highly-skilled employees, maintaining our strong health and safety track record and ensuring operational and technical integrity.
 </p>
 <p>
 Our relationships with our clients and the quality of service that we provide are of paramount importance to us and we have worked hard to establish strong, long-term relationships with our customers, suppliers and local partners to secure our reputation as a premium drilling contractor.
@@ -118,9 +118,6 @@ Our relationships with our clients and the quality of service that we provide ar
 }
         .who-we-are img {
           width: 100%;
-        }
-        .who-we-are span{
-          color:red;
         }
 
         .values{
