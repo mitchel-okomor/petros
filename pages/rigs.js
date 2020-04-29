@@ -36,8 +36,8 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
 }
     
 .rigs p{
-  font-size: 1em;
-  line-heigth: 1em;
+  font-size: 1.3em;
+  line-heigh: 1em;
   margin: 1em 0 1em 0;
 }
 .rigs h1{
@@ -52,6 +52,10 @@ In addition, we offer the rental of a wide portfolio of high quality drilling an
     margin:1em;
     padding-top:30px;
   }
+  .rigs img{
+  width: 100%;
+  height: 13em;
+}
 }
    
     `}</style>

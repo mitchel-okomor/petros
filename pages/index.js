@@ -73,18 +73,18 @@ export default function Index() {
           <h2>Latest News</h2>
           <ul>
             <li>
-            <img src="/petro-logo.jpg" alt="" />
+            <img src="" alt="" />
             <br />
               <Link href="/media">
                 <a>
-                Contract Awarded to PetroGas and Benny William Consults by Federal Ministry of Construction, United Kingdom.
+               $10million Contract Awarded to PetroGas and Benny William Consults by Federal Ministry of Construction, United Kingdom.
                   <p>27 April 2020</p>
                 </a>
               </Link>
             </li>
             <br /> <br />
             <li>
-            <img src="/petro-logo.jpg" alt="" />
+            <img src="" alt="" />
             <br />
               <Link href="/media">
                 <a>
@@ -96,7 +96,7 @@ export default function Index() {
             </li>
             <br /> <br />
             <li>
-            <img src="/petro-logo.jpg" alt="" />
+            <img src="" alt="" />
             <br />
               <Link href="/media">
                 <a>
@@ -108,7 +108,7 @@ export default function Index() {
             </li>
             <br /> <br />
             <li>
-            <img src="/petro-logo.jpg" alt="" />
+            <img src="" alt="" />
             <br />
               <Link href="/media">
                 <a>

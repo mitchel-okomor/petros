@@ -20,11 +20,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/services": [
+    "/rigs": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/whoweare": [
+    "/thepetrogasway": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

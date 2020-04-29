@@ -27,7 +27,6 @@ export default function Innovations() {
 <li>Business integrity</li>
 <li>Sustainable growth</li>
 </ul>
-<a>​Read our Health and Safety Policy</a>
 <p>The PetroGas Group Way prioritises health and safety. Our worldwide activities are driven by our belief that we can achieve safe, effective and trouble-free operations 365 days a year. Our employees have the right to work in an accident free workplace and have the responsibility to create and maintain a safe environment. We proactively work to reduce the chances of harm to anyone.</p>
 <p>We plan for trouble-free operations by ensuring we have the right people with the right training and competence, using the right equipment in the right way, on well planned, well led projects.</p>
 <p>The PetroGas Group Way values all people. We employ, either directly or through our affiliates, more than 9,000 talented people across the world. Our team enjoys experience from every stage of the drilling life-cycle from engineering design, rig build, equipment manufacture, safety leadership to drilling operations.
@@ -46,7 +45,6 @@ Wherever we operate we proactively work to reduce the chance of harm to the envi
 
 The PetroGas Group Way preserves business integrity under all circumstances. We have a reputation for principled behaviour and address potentially unethical practices with our robust ‘zero tolerance’ policy. We would rather not accept business, than win or facilitate it by paying bribes. Our people have explicit accountability to comply under our worldwide standards, policies and procedures.</p>
 
-<a href="#">Read our Anti-bribery and Corruption policy</a>
 <p>
 The PetroGas Group Way aims to achieve profitable and long term sustainable growth. We promote a culture of financial discipline across the group. We aim to invest wisely in new projects and operate our business as efficiently as possible to deliver a continuous improvement in our financial performance.
 </p>
