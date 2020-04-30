@@ -1,4 +1,4 @@
-Sitemap: https://petrogasgrouponline.com/api/posts-sitemap
+Sitemap: https://petrogasgrouponline.com/sitemap.xml
 
 User-agent: *
 Allow: /*
