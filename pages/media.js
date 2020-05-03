@@ -1,4 +1,5 @@
 import Layout from './components/MyLayout';
+import Link from 'next/link';
 
 export default function Media() {
   return (
@@ -8,46 +9,103 @@ export default function Media() {
         <hr/>
        
         <img src="/business.jpg" alt="business and services"/>
-        <p>Welcome to our media centre.  Stay up to date with the latest news from KCA Deutag.  If you are a journalist and have a media enquiry please contact:
+        <p>Welcome to our media centre.  Stay up to date with the latest news from Petrogas Group.  If you are a journalist and have a media enquiry please contact:
 </p>
-PetroGas Group Head Office, <br />
-         United Kingdom.<br />
-        Tel:  +44 7451 278 898 <br />
-        Email: communications@petrogasservices.com
+The Group Head of communications <br />
+         United Kingdom<br />
+        Tel:  +44 2030 957 641 <br />
+        Email: communications@petrogasgrouponline.com
+        <hr />
 <br/>
 <br />
+<br />
 <article>
- 
-  <section>
-  <div className="news">
-      <h2>Latest News</h2>
-      <ul>
-        <li>
-          <h3>Contract Awarded to PetroGas and Benny William Consults</h3>
-            <p> <b>Contractor</b>: George Gales
-              <br />
-             <b>Contract Amount</b> :   Ten Million US Dollars
-              <br />
-             <b> Beneficiary</b>:   PETROGAS & BENNY WILLIAM CONSULTANTS
-              <br />
-              <b> Ministry Involved</b> :   FEDERAL MINISTRY OF CONSTRUCTION
-              <br />
-              <b>Contract Desccription</b>:   Construction
-              <br />
-              <b> Contract Location</b>:  United Kingdom
-              </p> 
-              <p>27 April 2020</p>
-        </li>
-       
-      </ul>
-    </div>
+<section className="news-section">
+  <img src="/george.jpeg" alt="media news image"/>
+  <div className="article">
+<h4>5th May, 2020</h4>
+<h3> PetroGas appoints George Gales Health and Safety Consultant</h3>
+<p>  PetroGas appoints George Gales Health and Safety Consultant. George Gales  is a very experienced Safety Officer with over 30 years experience in the Health and Safety department of various companies. He was until his appointment the Health and Safety Director at Mile Energy.</p>
+  </div>
+
   </section>
+  <hr />
+  <section className="news-section">
+  <img src="/martin.jpeg" alt="media news image"/>
+  <div className="article">
+<h4>28th January, 2020</h4>
+<h3>PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract</h3>
+<p> PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract for three UK North Sea platforms. The contract will run for two  years and will be renewed subject to review and agreement of terms by both parties.</p>
+  </div>
+
+  </section>
+    <hr />
+    <section className="news-section">
+  <img src="/east.jpeg" alt="media news image"/>
+  <div className="article">
+<h4>18th November, 2019</h4>
+<h3>Petrogas Group secures $460m of land drilling contracts in the Middle East, Africa and Europe</h3>
+<p>Petrogas Group  today announces that its land drilling operation has won new contracts worth approximately $460m in the Middle East, Africa and Europe.</p>
+  </div>
+
+  </section>
+    <hr />
+    <section className="news-section">
+  <img src="/2.jpg" alt="media news image"/>
+  <div className="article">
+<h4>15th December 2019</h4>
+<h3>PetroGas secures $850million of Land drilling contracts in Middle East, Africa and Europe. </h3>
+<p>
+
+Petrogas today announces the it's land drilling operation has won new contracts worth approximately $850million in the Middle East, Africa and Europe.</p>
+ <Link href="#"><a>Read more</a></Link>
+  </div>
+
+  </section>
+    <hr />
+    <section className="news-section">
+  <img src="/2.jpg" alt="media news image"/>
+  <div className="article">
+<h4>18th October 2019</h4>
+<h3>Bontec wins multi-million euro contract for nine 320t cluster slider drilling rigs</h3>
+<p>
+Bontec, a subsidiary of Petrogas one of the world’s leading manufacturers of drilling rigs and oilfield equipment, today announces that it has signed a multi-million euro contract with the drilling division of INK-Service Group (“INK”) for the manufacture of nine latest generation 320t cluster slider rigs. INK is the oilfield service unit of Russia’s Irkutsk Oil Company.</p>
+ 
+  </div>
+
+  </section>
+    <hr />
+    <section className="news-section">
+  <img src="/hypser.jpg" alt="media news image"/>
+  <div className="article">
+<h4>
+3rd September, 2019</h4>
+<h3>BRG wins Hypser Energy conceptual study contract</h3>
+<p>
+BRG, Petrogas's global provider of engineering and design solutions to the oil and gas, renewable and alternative energy sectors, is pleased to announce that it has won a new contract to carry out a conceptual study for Hypser Energy.</p>
+
+  </div>
+
+  </section>
+    <hr />
+    <section className="news-section">
+  <img src="/4.jpg" alt="media news image"/>
+  <div className="article">
+<h4>5th July, 2019
+</h4>
+<h3>PetroGas Land Operation Wins $268m of New Drilling Contracts in Russia</h3>
+<p>
+Global drilling and engineering contractor PetroGas is delighted to announce that its land drilling operation has won three new contracts in Russia worth approximately $268m.</p>
+  </div>
+
+  </section>
+    <hr />
 </article>
 
       </div>
       <style jsx>{`
 .media{
-   margin: 5em;
+   margin: 3em;
 }
 
 .media img{
@@ -109,10 +167,57 @@ font-size: 2em;
     color: black;
   }
 
+  .news-section{
+    box-sizing:border-box;
+    display:grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 3em;
+   min-height:220px;
+
+  }
+  .news-section h3{
+   width:95%;
+    
+  }
+  .news-section h4{
+   box-sizing:border-box;
+
+  }
+  .news-section p{
+   box-sizing:border-box;
+   width:95%;
+  }
+  .news-section a{
+   color:red;
+   font-size: 15px;
+    
+  }
+  .news-section div{
+   box-sizing:border-box;
+    
+  }
+  .news-section img{
+  width: 20em;
+  height: 17em;
+  }
+
   @media only screen and (max-width: 800px){
   .media{
     margin:1em;
     padding-top:30px;
+  }
+  .news-section{
+    display:block;
+  min-height:35em;
+  width:100%;
+  }
+  .news-section div{
+width: 100%;
+    
+  }
+  .news-section img{
+     width: 20em;
+height: 15em;
   }
 }
    
