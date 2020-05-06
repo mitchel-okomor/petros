@@ -12,7 +12,6 @@ export default function Media() {
         <p>Welcome to our media centre.  Stay up to date with the latest news from Petrogas Group.  If you are a journalist and have a media enquiry please contact:
 </p>
 The Group Head of communications <br />
-         United Kingdom<br />
         Tel:  +44 2030 957 641 <br />
         Email: communications@petrogasgrouponline.com
         <hr />
@@ -20,12 +19,14 @@ The Group Head of communications <br />
 <br />
 <br />
 <article>
-<section className="news-section">
-  <img src="/george.jpeg" alt="media news image"/>
+
+  <section className="news-section">
+  <img src="/gale.jpeg" alt="media news image"/>
   <div className="article">
-<h4>5th May, 2020</h4>
-<h3> PetroGas appoints George Gales Health and Safety Consultant</h3>
-<p>  PetroGas appoints George Gales Health and Safety Consultant. George Gales  is a very experienced Safety Officer with over 30 years experience in the Health and Safety department of various companies. He was until his appointment the Health and Safety Director at Mile Energy.</p>
+<h4>4th May, 2020</h4>
+<h3>$15m contract awarded to petrogas & Benny William consultant</h3>
+<p> $15m contract awarded to petrogas & Benny William consultant by Federal Ministry of Construction United Kingdom. <br />
+Contractor: George Adam Gales</p>
   </div>
 
   </section>

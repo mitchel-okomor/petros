@@ -35,8 +35,8 @@ const Nav = () => (
         </Link>
       </li>
       <li>
-        <Link href="/investors">
-          <a> Investors</a>
+        <Link href="/management" as="the managment team">
+          <a> Management</a>
         </Link>
       </li>
       <li>
