@@ -1,5 +1,4 @@
 import Layout from './components/MyLayout';
-import Link from 'next/link';
 
 export default function Media() {
   return (
@@ -19,47 +18,15 @@ The Group Head of communications <br />
 <br />
 <br />
 <article>
-
-  <section className="news-section">
-  <img src="/gale.jpeg" alt="media news image"/>
-  <div className="article">
-<h4>4th May, 2020</h4>
-<h3>$15m contract awarded to petrogas & Benny William consultant</h3>
-<p> $15m contract awarded to petrogas & Benny William consultant by Federal Ministry of Construction United Kingdom. <br />
-Contractor: George Adam Gales</p>
-  </div>
-
-  </section>
-  <hr />
-  <section className="news-section">
-  <img src="/martin.jpeg" alt="media news image"/>
-  <div className="article">
-<h4>28th January, 2020</h4>
-<h3>PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract</h3>
-<p> PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract for three UK North Sea platforms. The contract will run for two  years and will be renewed subject to review and agreement of terms by both parties.</p>
-  </div>
-
-  </section>
-    <hr />
     <section className="news-section">
-  <img src="/east.jpeg" alt="media news image"/>
-  <div className="article">
-<h4>18th November, 2019</h4>
-<h3>Petrogas Group secures $460m of land drilling contracts in the Middle East, Africa and Europe</h3>
-<p>Petrogas Group  today announces that its land drilling operation has won new contracts worth approximately $460m in the Middle East, Africa and Europe.</p>
-  </div>
-
-  </section>
-    <hr />
-    <section className="news-section">
-  <img src="/2.jpg" alt="media news image"/>
+  <img src="/1.jpg" alt="media news image"/>
   <div className="article">
 <h4>15th December 2019</h4>
 <h3>PetroGas secures $850million of Land drilling contracts in Middle East, Africa and Europe. </h3>
 <p>
 
+PetroGas secures $850million of Land drilling contracts in Middle East, Africa and Europe. 
 Petrogas today announces the it's land drilling operation has won new contracts worth approximately $850million in the Middle East, Africa and Europe.</p>
- <Link href="#"><a>Read more</a></Link>
   </div>
 
   </section>
@@ -68,7 +35,7 @@ Petrogas today announces the it's land drilling operation has won new contracts 
   <img src="/2.jpg" alt="media news image"/>
   <div className="article">
 <h4>18th October 2019</h4>
-<h3>Bontec wins multi-million euro contract for nine 320t cluster slider drilling rigs</h3>
+<h3>Bontec wins multi-million euro contract for nine 320t cluster slider drilling rigs.</h3>
 <p>
 Bontec, a subsidiary of Petrogas one of the world’s leading manufacturers of drilling rigs and oilfield equipment, today announces that it has signed a multi-million euro contract with the drilling division of INK-Service Group (“INK”) for the manufacture of nine latest generation 320t cluster slider rigs. INK is the oilfield service unit of Russia’s Irkutsk Oil Company.</p>
  
@@ -77,7 +44,7 @@ Bontec, a subsidiary of Petrogas one of the world’s leading manufacturers of d
   </section>
     <hr />
     <section className="news-section">
-  <img src="/hypser.jpg" alt="media news image"/>
+  <img src="/3.png" alt="media news image"/>
   <div className="article">
 <h4>
 3rd September, 2019</h4>

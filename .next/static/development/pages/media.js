@@ -6926,20 +6926,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/MyLayout */ "./pages/components/MyLayout.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "C:\\Users\\User PC\\workspace\\kca\\pages\\media.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
 
 function Media() {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 5,
       columnNumber: 5
     }
   }, __jsx("div", {
@@ -6947,7 +6944,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 6,
       columnNumber: 7
     }
   }, __jsx("h5", {
@@ -6955,7 +6952,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 7,
       columnNumber: 7
     }
   }, "Home > Media> News"), __jsx("hr", {
@@ -6963,7 +6960,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 9
     }
   }), __jsx("img", {
@@ -6973,7 +6970,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 10,
       columnNumber: 9
     }
   }), __jsx("p", {
@@ -6981,7 +6978,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 11,
       columnNumber: 9
     }
   }, "Welcome to our media centre.  Stay up to date with the latest news from Petrogas Group.  If you are a journalist and have a media enquiry please contact:"), "The Group Head of communications ", __jsx("br", {
@@ -6989,7 +6986,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 13,
       columnNumber: 34
     }
   }), "Tel:  +44 2030 957 641 ", __jsx("br", {
@@ -6997,7 +6994,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 14,
       columnNumber: 32
     }
   }), "Email: communications@petrogasgrouponline.com", __jsx("hr", {
@@ -7005,8 +7002,16 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 9
+    }
+  }), __jsx("br", {
+    className: "jsx-1183604610",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 1
     }
   }), __jsx("br", {
     className: "jsx-1183604610",
@@ -7024,7 +7029,7 @@ function Media() {
       lineNumber: 19,
       columnNumber: 1
     }
-  }), __jsx("br", {
+  }), __jsx("article", {
     className: "jsx-1183604610",
     __self: this,
     __source: {
@@ -7032,30 +7037,22 @@ function Media() {
       lineNumber: 20,
       columnNumber: 1
     }
-  }), __jsx("article", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 1
-    }
   }, __jsx("section", {
     className: "jsx-1183604610" + " " + "news-section",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 3
+      lineNumber: 21,
+      columnNumber: 5
     }
   }, __jsx("img", {
-    src: "/gale.jpeg",
+    src: "/1.jpg",
     alt: "media news image",
     className: "jsx-1183604610",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 22,
       columnNumber: 3
     }
   }), __jsx("div", {
@@ -7063,7 +7060,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 23,
       columnNumber: 3
     }
   }, __jsx("h4", {
@@ -7071,40 +7068,32 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 1
+    }
+  }, "15th December 2019"), __jsx("h3", {
+    className: "jsx-1183604610",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 1
+    }
+  }, "PetroGas secures $850million of Land drilling contracts in Middle East, Africa and Europe. "), __jsx("p", {
+    className: "jsx-1183604610",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 26,
       columnNumber: 1
     }
-  }, "4th May, 2020"), __jsx("h3", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 1
-    }
-  }, "$15m contract awarded to petrogas & Benny William consultant"), __jsx("p", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 1
-    }
-  }, " $15m contract awarded to petrogas & Benny William consultant by Federal Ministry of Construction United Kingdom. ", __jsx("br", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 118
-    }
-  }), "Contractor: George Adam Gales"))), __jsx("hr", {
+  }, "PetroGas secures $850million of Land drilling contracts in Middle East, Africa and Europe. Petrogas today announces the it's land drilling operation has won new contracts worth approximately $850million in the Middle East, Africa and Europe."))), __jsx("hr", {
     className: "jsx-1183604610",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 3
+      columnNumber: 5
     }
   }), __jsx("section", {
     className: "jsx-1183604610" + " " + "news-section",
@@ -7112,10 +7101,10 @@ function Media() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 3
+      columnNumber: 5
     }
   }, __jsx("img", {
-    src: "/martin.jpeg",
+    src: "/2.jpg",
     alt: "media news image",
     className: "jsx-1183604610",
     __self: this,
@@ -7140,7 +7129,7 @@ function Media() {
       lineNumber: 37,
       columnNumber: 1
     }
-  }, "28th January, 2020"), __jsx("h3", {
+  }, "18th October 2019"), __jsx("h3", {
     className: "jsx-1183604610",
     __self: this,
     __source: {
@@ -7148,7 +7137,7 @@ function Media() {
       lineNumber: 38,
       columnNumber: 1
     }
-  }, "PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract"), __jsx("p", {
+  }, "Bontec wins multi-million euro contract for nine 320t cluster slider drilling rigs."), __jsx("p", {
     className: "jsx-1183604610",
     __self: this,
     __source: {
@@ -7156,12 +7145,12 @@ function Media() {
       lineNumber: 39,
       columnNumber: 1
     }
-  }, " PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract for three UK North Sea platforms. The contract will run for two  years and will be renewed subject to review and agreement of terms by both parties."))), __jsx("hr", {
+  }, "Bontec, a subsidiary of Petrogas one of the world\u2019s leading manufacturers of drilling rigs and oilfield equipment, today announces that it has signed a multi-million euro contract with the drilling division of INK-Service Group (\u201CINK\u201D) for the manufacture of nine latest generation 320t cluster slider rigs. INK is the oilfield service unit of Russia\u2019s Irkutsk Oil Company."))), __jsx("hr", {
     className: "jsx-1183604610",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 45,
       columnNumber: 5
     }
   }), __jsx("section", {
@@ -7169,17 +7158,17 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 5
     }
   }, __jsx("img", {
-    src: "/east.jpeg",
+    src: "/3.png",
     alt: "media news image",
     className: "jsx-1183604610",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 47,
       columnNumber: 3
     }
   }), __jsx("div", {
@@ -7187,26 +7176,10 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 48,
       columnNumber: 3
     }
   }, __jsx("h4", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 1
-    }
-  }, "18th November, 2019"), __jsx("h3", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 1
-    }
-  }, "Petrogas Group secures $460m of land drilling contracts in the Middle East, Africa and Europe"), __jsx("p", {
     className: "jsx-1183604610",
     __self: this,
     __source: {
@@ -7214,186 +7187,12 @@ function Media() {
       lineNumber: 49,
       columnNumber: 1
     }
-  }, "Petrogas Group  today announces that its land drilling operation has won new contracts worth approximately $460m in the Middle East, Africa and Europe."))), __jsx("hr", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 5
-    }
-  }), __jsx("section", {
-    className: "jsx-1183604610" + " " + "news-section",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 5
-    }
-  }, __jsx("img", {
-    src: "/2.jpg",
-    alt: "media news image",
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 3
-    }
-  }), __jsx("div", {
-    className: "jsx-1183604610" + " " + "article",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 3
-    }
-  }, __jsx("h4", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 1
-    }
-  }, "15th December 2019"), __jsx("h3", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 1
-    }
-  }, "PetroGas secures $850million of Land drilling contracts in Middle East, Africa and Europe. "), __jsx("p", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 1
-    }
-  }, "Petrogas today announces the it's land drilling operation has won new contracts worth approximately $850million in the Middle East, Africa and Europe."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "#",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 2
-    }
-  }, __jsx("a", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 17
-    }
-  }, "Read more")))), __jsx("hr", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 5
-    }
-  }), __jsx("section", {
-    className: "jsx-1183604610" + " " + "news-section",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 5
-    }
-  }, __jsx("img", {
-    src: "/2.jpg",
-    alt: "media news image",
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 3
-    }
-  }), __jsx("div", {
-    className: "jsx-1183604610" + " " + "article",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 3
-    }
-  }, __jsx("h4", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 1
-    }
-  }, "18th October 2019"), __jsx("h3", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 1
-    }
-  }, "Bontec wins multi-million euro contract for nine 320t cluster slider drilling rigs"), __jsx("p", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 1
-    }
-  }, "Bontec, a subsidiary of Petrogas one of the world\u2019s leading manufacturers of drilling rigs and oilfield equipment, today announces that it has signed a multi-million euro contract with the drilling division of INK-Service Group (\u201CINK\u201D) for the manufacture of nine latest generation 320t cluster slider rigs. INK is the oilfield service unit of Russia\u2019s Irkutsk Oil Company."))), __jsx("hr", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 5
-    }
-  }), __jsx("section", {
-    className: "jsx-1183604610" + " " + "news-section",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 5
-    }
-  }, __jsx("img", {
-    src: "/hypser.jpg",
-    alt: "media news image",
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 3
-    }
-  }), __jsx("div", {
-    className: "jsx-1183604610" + " " + "article",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 3
-    }
-  }, __jsx("h4", {
-    className: "jsx-1183604610",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 1
-    }
   }, "3rd September, 2019"), __jsx("h3", {
     className: "jsx-1183604610",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 51,
       columnNumber: 1
     }
   }, "BRG wins Hypser Energy conceptual study contract"), __jsx("p", {
@@ -7401,7 +7200,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 52,
       columnNumber: 1
     }
   }, "BRG, Petrogas's global provider of engineering and design solutions to the oil and gas, renewable and alternative energy sectors, is pleased to announce that it has won a new contract to carry out a conceptual study for Hypser Energy."))), __jsx("hr", {
@@ -7409,7 +7208,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 58,
       columnNumber: 5
     }
   }), __jsx("section", {
@@ -7417,7 +7216,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 59,
       columnNumber: 5
     }
   }, __jsx("img", {
@@ -7427,7 +7226,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 60,
       columnNumber: 3
     }
   }), __jsx("div", {
@@ -7435,7 +7234,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 61,
       columnNumber: 3
     }
   }, __jsx("h4", {
@@ -7443,7 +7242,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 62,
       columnNumber: 1
     }
   }, "5th July, 2019"), __jsx("h3", {
@@ -7451,7 +7250,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 64,
       columnNumber: 1
     }
   }, "PetroGas Land Operation Wins $268m of New Drilling Contracts in Russia"), __jsx("p", {
@@ -7459,7 +7258,7 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 65,
       columnNumber: 1
     }
   }, "Global drilling and engineering contractor PetroGas is delighted to announce that its land drilling operation has won three new contracts in Russia worth approximately $268m."))), __jsx("hr", {
@@ -7467,18 +7266,18 @@ function Media() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 70,
       columnNumber: 5
     }
   }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1183604610",
     __self: this
-  }, ".media.jsx-1183604610{margin:3em;}.media.jsx-1183604610 img.jsx-1183604610{width:100%;}.media.jsx-1183604610 p.jsx-1183604610{font-size:1.2em;line-height:1.4em;margin:1em 0 1em 0;}.media.jsx-1183604610 h1.jsx-1183604610{margin:1em 0 0.2em 0;}.media.jsx-1183604610 h2.jsx-1183604610{color:grey;}.news.jsx-1183604610{margin:auto;min-height:400px;width:100%;}.news.jsx-1183604610 ul.jsx-1183604610{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin:0;padding:0;}.news.jsx-1183604610 ul.jsx-1183604610 li.jsx-1183604610{list-style:none;margin-bottom:2em;padding:0;margin:0;box-shadow:1px 1px gray;}.news.jsx-1183604610 ul.jsx-1183604610 li.jsx-1183604610 h3.jsx-1183604610::before{content:\"\u25BA\uFE0E\";color:red;margin-right:.3em;}.news.jsx-1183604610 h2.jsx-1183604610{margin:30px;padding:0;font-size:2em;}.news.jsx-1183604610 p.jsx-1183604610{margin:8px;padding:8px;line-height:1.5em;background-color:white;color:black;}.news-section.jsx-1183604610{box-sizing:border-box;display:grid;grid-template-columns:25% 75%;grid-gap:3em;min-height:220px;}.news-section.jsx-1183604610 h3.jsx-1183604610{width:95%;}.news-section.jsx-1183604610 h4.jsx-1183604610{box-sizing:border-box;}.news-section.jsx-1183604610 p.jsx-1183604610{box-sizing:border-box;width:95%;}.news-section.jsx-1183604610 a.jsx-1183604610{color:red;font-size:15px;}.news-section.jsx-1183604610 div.jsx-1183604610{box-sizing:border-box;}.news-section.jsx-1183604610 img.jsx-1183604610{width:20em;height:17em;}@media only screen and (max-width:800px){.media.jsx-1183604610{margin:1em;padding-top:30px;}.news-section.jsx-1183604610{display:block;min-height:35em;width:100%;}.news-section.jsx-1183604610 div.jsx-1183604610{width:100%;}.news-section.jsx-1183604610 img.jsx-1183604610{width:20em;height:15em;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcVXNlciBQQ1xcd29ya3NwYWNlXFxrY2FcXHBhZ2VzXFxtZWRpYS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwR2tCLEFBR2UsQUFJQSxBQUlJLEFBS0ssQUFLWCxBQUlDLEFBT3FCLEFBTWQsQUFTTixBQU1BLEFBS0MsQUFRVSxBQVFiLEFBSVksQUFJQSxBQUlaLEFBS1ksQUFJWCxBQU1DLEFBSUcsQUFLTixBQUlLLFVBdENkLEFBV2dCLENBbkZsQixBQUlBLEFBY0EsQUFxQ2UsQUFxQ0QsQUFNTSxBQVVsQixBQUdVLENBekZTLEFBNEJULENBTkEsQ0EwREssRUE5RkcsQUEyQkUsS0FyQnRCLENBcUNjLEFBWUUsQUFhZCxBQUdVLEFBVVYsQ0E1Q2tCLEFBV0MsQUFxQ25CLEFBbUJBLEVBM0JBLEdBY0EsQ0E1RWMsQ0FnRkosRUF2QlYsRUF2RW1CLEFBMkJSLENBNEJxQixDQVpsQyxJQTFCQSxDQW9CQSxBQVcyQixBQStDekIsR0FuRVUsU0EzQlosQUE0QjRCLFdBb0JaLENBT0MsV0FOZixDQW5CQSxDQTBCaUIsaUJBRWpCLG9CQXZDTSxTQUNDLFVBQ1AiLCJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyIFBDXFx3b3Jrc3BhY2VcXGtjYVxccGFnZXNcXG1lZGlhLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuL2NvbXBvbmVudHMvTXlMYXlvdXQnO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTWVkaWEoKSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxMYXlvdXQ+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVkaWFcIj5cclxuICAgICAgPGg1PkhvbWUgPiBNZWRpYT4gTmV3czwvaDU+XHJcbiAgICAgICAgPGhyLz5cclxuICAgICAgIFxyXG4gICAgICAgIDxpbWcgc3JjPVwiL2J1c2luZXNzLmpwZ1wiIGFsdD1cImJ1c2luZXNzIGFuZCBzZXJ2aWNlc1wiLz5cclxuICAgICAgICA8cD5XZWxjb21lIHRvIG91ciBtZWRpYSBjZW50cmUuICBTdGF5IHVwIHRvIGRhdGUgd2l0aCB0aGUgbGF0ZXN0IG5ld3MgZnJvbSBQZXRyb2dhcyBHcm91cC4gIElmIHlvdSBhcmUgYSBqb3VybmFsaXN0IGFuZCBoYXZlIGEgbWVkaWEgZW5xdWlyeSBwbGVhc2UgY29udGFjdDpcclxuPC9wPlxyXG5UaGUgR3JvdXAgSGVhZCBvZiBjb21tdW5pY2F0aW9ucyA8YnIgLz5cclxuICAgICAgICBUZWw6ICArNDQgMjAzMCA5NTcgNjQxIDxiciAvPlxyXG4gICAgICAgIEVtYWlsOiBjb21tdW5pY2F0aW9uc0BwZXRyb2dhc2dyb3Vwb25saW5lLmNvbVxyXG4gICAgICAgIDxociAvPlxyXG48YnIvPlxyXG48YnIgLz5cclxuPGJyIC8+XHJcbjxhcnRpY2xlPlxyXG5cclxuICA8c2VjdGlvbiBjbGFzc05hbWU9XCJuZXdzLXNlY3Rpb25cIj5cclxuICA8aW1nIHNyYz1cIi9nYWxlLmpwZWdcIiBhbHQ9XCJtZWRpYSBuZXdzIGltYWdlXCIvPlxyXG4gIDxkaXYgY2xhc3NOYW1lPVwiYXJ0aWNsZVwiPlxyXG48aDQ+NHRoIE1heSwgMjAyMDwvaDQ+XHJcbjxoMz4kMTVtIGNvbnRyYWN0IGF3YXJkZWQgdG8gcGV0cm9nYXMgJiBCZW5ueSBXaWxsaWFtIGNvbnN1bHRhbnQ8L2gzPlxyXG48cD4gJDE1bSBjb250cmFjdCBhd2FyZGVkIHRvIHBldHJvZ2FzICYgQmVubnkgV2lsbGlhbSBjb25zdWx0YW50IGJ5IEZlZGVyYWwgTWluaXN0cnkgb2YgQ29uc3RydWN0aW9uIFVuaXRlZCBLaW5nZG9tLiA8YnIgLz5cclxuQ29udHJhY3RvcjogR2VvcmdlIEFkYW0gR2FsZXM8L3A+XHJcbiAgPC9kaXY+XHJcblxyXG4gIDwvc2VjdGlvbj5cclxuICA8aHIgLz5cclxuICA8c2VjdGlvbiBjbGFzc05hbWU9XCJuZXdzLXNlY3Rpb25cIj5cclxuICA8aW1nIHNyYz1cIi9tYXJ0aW4uanBlZ1wiIGFsdD1cIm1lZGlhIG5ld3MgaW1hZ2VcIi8+XHJcbiAgPGRpdiBjbGFzc05hbWU9XCJhcnRpY2xlXCI+XHJcbjxoND4yOHRoIEphbnVhcnksIDIwMjA8L2g0PlxyXG48aDM+UGV0cm9HYXMgYXdhcmRzIFZsYXQgTWFydGluIEVuZ2luZWVyaW5nIENvbnN1bHRhbnRzIGEgJDgwbWlsbGlvbiBkcmlsbGluZyBjb250cmFjdDwvaDM+XHJcbjxwPiBQZXRyb0dhcyBhd2FyZHMgVmxhdCBNYXJ0aW4gRW5naW5lZXJpbmcgQ29uc3VsdGFudHMgYSAkODBtaWxsaW9uIGRyaWxsaW5nIGNvbnRyYWN0IGZvciB0aHJlZSBVSyBOb3J0aCBTZWEgcGxhdGZvcm1zLiBUaGUgY29udHJhY3Qgd2lsbCBydW4gZm9yIHR3byAgeWVhcnMgYW5kIHdpbGwgYmUgcmVuZXdlZCBzdWJqZWN0IHRvIHJldmlldyBhbmQgYWdyZWVtZW50IG9mIHRlcm1zIGJ5IGJvdGggcGFydGllcy48L3A+XHJcbiAgPC9kaXY+XHJcblxyXG4gIDwvc2VjdGlvbj5cclxuICAgIDxociAvPlxyXG4gICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwibmV3cy1zZWN0aW9uXCI+XHJcbiAgPGltZyBzcmM9XCIvZWFzdC5qcGVnXCIgYWx0PVwibWVkaWEgbmV3cyBpbWFnZVwiLz5cclxuICA8ZGl2IGNsYXNzTmFtZT1cImFydGljbGVcIj5cclxuPGg0PjE4dGggTm92ZW1iZXIsIDIwMTk8L2g0PlxyXG48aDM+UGV0cm9nYXMgR3JvdXAgc2VjdXJlcyAkNDYwbSBvZiBsYW5kIGRyaWxsaW5nIGNvbnRyYWN0cyBpbiB0aGUgTWlkZGxlIEVhc3QsIEFmcmljYSBhbmQgRXVyb3BlPC9oMz5cclxuPHA+UGV0cm9nYXMgR3JvdXAgIHRvZGF5IGFubm91bmNlcyB0aGF0IGl0cyBsYW5kIGRyaWxsaW5nIG9wZXJhdGlvbiBoYXMgd29uIG5ldyBjb250cmFjdHMgd29ydGggYXBwcm94aW1hdGVseSAkNDYwbSBpbiB0aGUgTWlkZGxlIEVhc3QsIEFmcmljYSBhbmQgRXVyb3BlLjwvcD5cclxuICA8L2Rpdj5cclxuXHJcbiAgPC9zZWN0aW9uPlxyXG4gICAgPGhyIC8+XHJcbiAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJuZXdzLXNlY3Rpb25cIj5cclxuICA8aW1nIHNyYz1cIi8yLmpwZ1wiIGFsdD1cIm1lZGlhIG5ld3MgaW1hZ2VcIi8+XHJcbiAgPGRpdiBjbGFzc05hbWU9XCJhcnRpY2xlXCI+XHJcbjxoND4xNXRoIERlY2VtYmVyIDIwMTk8L2g0PlxyXG48aDM+UGV0cm9HYXMgc2VjdXJlcyAkODUwbWlsbGlvbiBvZiBMYW5kIGRyaWxsaW5nIGNvbnRyYWN0cyBpbiBNaWRkbGUgRWFzdCwgQWZyaWNhIGFuZCBFdXJvcGUuIDwvaDM+XHJcbjxwPlxyXG5cclxuUGV0cm9nYXMgdG9kYXkgYW5ub3VuY2VzIHRoZSBpdCdzIGxhbmQgZHJpbGxpbmcgb3BlcmF0aW9uIGhhcyB3b24gbmV3IGNvbnRyYWN0cyB3b3J0aCBhcHByb3hpbWF0ZWx5ICQ4NTBtaWxsaW9uIGluIHRoZSBNaWRkbGUgRWFzdCwgQWZyaWNhIGFuZCBFdXJvcGUuPC9wPlxyXG4gPExpbmsgaHJlZj1cIiNcIj48YT5SZWFkIG1vcmU8L2E+PC9MaW5rPlxyXG4gIDwvZGl2PlxyXG5cclxuICA8L3NlY3Rpb24+XHJcbiAgICA8aHIgLz5cclxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cIm5ld3Mtc2VjdGlvblwiPlxyXG4gIDxpbWcgc3JjPVwiLzIuanBnXCIgYWx0PVwibWVkaWEgbmV3cyBpbWFnZVwiLz5cclxuICA8ZGl2IGNsYXNzTmFtZT1cImFydGljbGVcIj5cclxuPGg0PjE4dGggT2N0b2JlciAyMDE5PC9oND5cclxuPGgzPkJvbnRlYyB3aW5zIG11bHRpLW1pbGxpb24gZXVybyBjb250cmFjdCBmb3IgbmluZSAzMjB0IGNsdXN0ZXIgc2xpZGVyIGRyaWxsaW5nIHJpZ3M8L2gzPlxyXG48cD5cclxuQm9udGVjLCBhIHN1YnNpZGlhcnkgb2YgUGV0cm9nYXMgb25lIG9mIHRoZSB3b3JsZOKAmXMgbGVhZGluZyBtYW51ZmFjdHVyZXJzIG9mIGRyaWxsaW5nIHJpZ3MgYW5kIG9pbGZpZWxkIGVxdWlwbWVudCwgdG9kYXkgYW5ub3VuY2VzIHRoYXQgaXQgaGFzIHNpZ25lZCBhIG11bHRpLW1pbGxpb24gZXVybyBjb250cmFjdCB3aXRoIHRoZSBkcmlsbGluZyBkaXZpc2lvbiBvZiBJTkstU2VydmljZSBHcm91cCAo4oCcSU5L4oCdKSBmb3IgdGhlIG1hbnVmYWN0dXJlIG9mIG5pbmUgbGF0ZXN0IGdlbmVyYXRpb24gMzIwdCBjbHVzdGVyIHNsaWRlciByaWdzLiBJTksgaXMgdGhlIG9pbGZpZWxkIHNlcnZpY2UgdW5pdCBvZiBSdXNzaWHigJlzIElya3V0c2sgT2lsIENvbXBhbnkuPC9wPlxyXG4gXHJcbiAgPC9kaXY+XHJcblxyXG4gIDwvc2VjdGlvbj5cclxuICAgIDxociAvPlxyXG4gICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwibmV3cy1zZWN0aW9uXCI+XHJcbiAgPGltZyBzcmM9XCIvaHlwc2VyLmpwZ1wiIGFsdD1cIm1lZGlhIG5ld3MgaW1hZ2VcIi8+XHJcbiAgPGRpdiBjbGFzc05hbWU9XCJhcnRpY2xlXCI+XHJcbjxoND5cclxuM3JkIFNlcHRlbWJlciwgMjAxOTwvaDQ+XHJcbjxoMz5CUkcgd2lucyBIeXBzZXIgRW5lcmd5IGNvbmNlcHR1YWwgc3R1ZHkgY29udHJhY3Q8L2gzPlxyXG48cD5cclxuQlJHLCBQZXRyb2dhcydzIGdsb2JhbCBwcm92aWRlciBvZiBlbmdpbmVlcmluZyBhbmQgZGVzaWduIHNvbHV0aW9ucyB0byB0aGUgb2lsIGFuZCBnYXMsIHJlbmV3YWJsZSBhbmQgYWx0ZXJuYXRpdmUgZW5lcmd5IHNlY3RvcnMsIGlzIHBsZWFzZWQgdG8gYW5ub3VuY2UgdGhhdCBpdCBoYXMgd29uIGEgbmV3IGNvbnRyYWN0IHRvIGNhcnJ5IG91dCBhIGNvbmNlcHR1YWwgc3R1ZHkgZm9yIEh5cHNlciBFbmVyZ3kuPC9wPlxyXG5cclxuICA8L2Rpdj5cclxuXHJcbiAgPC9zZWN0aW9uPlxyXG4gICAgPGhyIC8+XHJcbiAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJuZXdzLXNlY3Rpb25cIj5cclxuICA8aW1nIHNyYz1cIi80LmpwZ1wiIGFsdD1cIm1lZGlhIG5ld3MgaW1hZ2VcIi8+XHJcbiAgPGRpdiBjbGFzc05hbWU9XCJhcnRpY2xlXCI+XHJcbjxoND41dGggSnVseSwgMjAxOVxyXG48L2g0PlxyXG48aDM+UGV0cm9HYXMgTGFuZCBPcGVyYXRpb24gV2lucyAkMjY4bSBvZiBOZXcgRHJpbGxpbmcgQ29udHJhY3RzIGluIFJ1c3NpYTwvaDM+XHJcbjxwPlxyXG5HbG9iYWwgZHJpbGxpbmcgYW5kIGVuZ2luZWVyaW5nIGNvbnRyYWN0b3IgUGV0cm9HYXMgaXMgZGVsaWdodGVkIHRvIGFubm91bmNlIHRoYXQgaXRzIGxhbmQgZHJpbGxpbmcgb3BlcmF0aW9uIGhhcyB3b24gdGhyZWUgbmV3IGNvbnRyYWN0cyBpbiBSdXNzaWEgd29ydGggYXBwcm94aW1hdGVseSAkMjY4bS48L3A+XHJcbiAgPC9kaXY+XHJcblxyXG4gIDwvc2VjdGlvbj5cclxuICAgIDxociAvPlxyXG48L2FydGljbGU+XHJcblxyXG4gICAgICA8L2Rpdj5cclxuICAgICAgPHN0eWxlIGpzeD57YFxyXG4ubWVkaWF7XHJcbiAgIG1hcmdpbjogM2VtO1xyXG59XHJcblxyXG4ubWVkaWEgaW1ne1xyXG4gICB3aWR0aDogMTAwJTtcclxufVxyXG5cclxuLm1lZGlhIHB7XHJcbiAgZm9udC1zaXplOiAxLjJlbTtcclxuICBsaW5lLWhlaWdodDogMS40ZW07XHJcbiAgbWFyZ2luOiAxZW0gMCAxZW0gMDtcclxufVxyXG4ubWVkaWEgaDF7XHJcbiAgbWFyZ2luOiAxZW0gMCAwLjJlbSAwO1xyXG5cclxufVxyXG5cclxuLm1lZGlhIGgye1xyXG4gIGNvbG9yOmdyZXk7XHJcbn1cclxuXHJcbi5uZXdze1xyXG4gIG1hcmdpbjphdXRvO1xyXG4gICAgIG1pbi1oZWlnaHQ6NDAwcHg7XHJcbiAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICBcclxuXHJcbn1cclxuICAubmV3cyB1bHtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxubWFyZ2luOjA7XHJcbnBhZGRpbmc6MDtcclxuICB9XHJcblxyXG4gIC5uZXdzIHVsIGxpe1xyXG4gICAgbGlzdC1zdHlsZTogbm9uZTtcclxuICAgIG1hcmdpbi1ib3R0b206IDJlbTtcclxuICAgIHBhZGRpbmc6MDtcclxuICAgIG1hcmdpbjowO1xyXG4gICAgYm94LXNoYWRvdzogMXB4IDFweCBncmF5O1xyXG5cclxuICB9XHJcblxyXG4gLm5ld3MgdWwgbGkgaDMgOjpiZWZvcmV7XHJcbiAgY29udGVudDpcIuKWuu+4jlwiO1xyXG4gIGNvbG9yOiByZWQ7XHJcbiAgbWFyZ2luLXJpZ2h0OiAuM2VtO1xyXG59XHJcbiAgXHJcbi5uZXdzIGgye1xyXG4gIG1hcmdpbjogMzBweDtcclxuICBwYWRkaW5nOiAwO1xyXG5mb250LXNpemU6IDJlbTtcclxufVxyXG4ubmV3cyBwe1xyXG4gICAgbWFyZ2luOiA4cHg7XHJcbiAgICBwYWRkaW5nOjhweDtcclxuICAgIGxpbmUtaGVpZ2h0OjEuNWVtO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgfVxyXG5cclxuICAubmV3cy1zZWN0aW9ue1xyXG4gICAgYm94LXNpemluZzpib3JkZXItYm94O1xyXG4gICAgZGlzcGxheTpncmlkO1xyXG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAyNSUgNzUlO1xyXG4gICAgZ3JpZC1nYXA6IDNlbTtcclxuICAgbWluLWhlaWdodDoyMjBweDtcclxuXHJcbiAgfVxyXG4gIC5uZXdzLXNlY3Rpb24gaDN7XHJcbiAgIHdpZHRoOjk1JTtcclxuICAgIFxyXG4gIH1cclxuICAubmV3cy1zZWN0aW9uIGg0e1xyXG4gICBib3gtc2l6aW5nOmJvcmRlci1ib3g7XHJcblxyXG4gIH1cclxuICAubmV3cy1zZWN0aW9uIHB7XHJcbiAgIGJveC1zaXppbmc6Ym9yZGVyLWJveDtcclxuICAgd2lkdGg6OTUlO1xyXG4gIH1cclxuICAubmV3cy1zZWN0aW9uIGF7XHJcbiAgIGNvbG9yOnJlZDtcclxuICAgZm9udC1zaXplOiAxNXB4O1xyXG4gICAgXHJcbiAgfVxyXG4gIC5uZXdzLXNlY3Rpb24gZGl2e1xyXG4gICBib3gtc2l6aW5nOmJvcmRlci1ib3g7XHJcbiAgICBcclxuICB9XHJcbiAgLm5ld3Mtc2VjdGlvbiBpbWd7XHJcbiAgd2lkdGg6IDIwZW07XHJcbiAgaGVpZ2h0OiAxN2VtO1xyXG4gIH1cclxuXHJcbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA4MDBweCl7XHJcbiAgLm1lZGlhe1xyXG4gICAgbWFyZ2luOjFlbTtcclxuICAgIHBhZGRpbmctdG9wOjMwcHg7XHJcbiAgfVxyXG4gIC5uZXdzLXNlY3Rpb257XHJcbiAgICBkaXNwbGF5OmJsb2NrO1xyXG4gIG1pbi1oZWlnaHQ6MzVlbTtcclxuICB3aWR0aDoxMDAlO1xyXG4gIH1cclxuICAubmV3cy1zZWN0aW9uIGRpdntcclxud2lkdGg6IDEwMCU7XHJcbiAgICBcclxuICB9XHJcbiAgLm5ld3Mtc2VjdGlvbiBpbWd7XHJcbiAgICAgd2lkdGg6IDIwZW07XHJcbmhlaWdodDogMTVlbTtcclxuICB9XHJcbn1cclxuICAgXHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgICA8L0xheW91dD5cclxuICApO1xyXG59Il19 */\n/*@ sourceURL=C:\\\\Users\\\\User PC\\\\workspace\\\\kca\\\\pages\\\\media.js */"));
+  }, ".media.jsx-1183604610{margin:3em;}.media.jsx-1183604610 img.jsx-1183604610{width:100%;}.media.jsx-1183604610 p.jsx-1183604610{font-size:1.2em;line-height:1.4em;margin:1em 0 1em 0;}.media.jsx-1183604610 h1.jsx-1183604610{margin:1em 0 0.2em 0;}.media.jsx-1183604610 h2.jsx-1183604610{color:grey;}.news.jsx-1183604610{margin:auto;min-height:400px;width:100%;}.news.jsx-1183604610 ul.jsx-1183604610{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin:0;padding:0;}.news.jsx-1183604610 ul.jsx-1183604610 li.jsx-1183604610{list-style:none;margin-bottom:2em;padding:0;margin:0;box-shadow:1px 1px gray;}.news.jsx-1183604610 ul.jsx-1183604610 li.jsx-1183604610 h3.jsx-1183604610::before{content:\"\u25BA\uFE0E\";color:red;margin-right:.3em;}.news.jsx-1183604610 h2.jsx-1183604610{margin:30px;padding:0;font-size:2em;}.news.jsx-1183604610 p.jsx-1183604610{margin:8px;padding:8px;line-height:1.5em;background-color:white;color:black;}.news-section.jsx-1183604610{box-sizing:border-box;display:grid;grid-template-columns:25% 75%;grid-gap:3em;min-height:220px;}.news-section.jsx-1183604610 h3.jsx-1183604610{width:95%;}.news-section.jsx-1183604610 h4.jsx-1183604610{box-sizing:border-box;}.news-section.jsx-1183604610 p.jsx-1183604610{box-sizing:border-box;width:95%;}.news-section.jsx-1183604610 a.jsx-1183604610{color:red;font-size:15px;}.news-section.jsx-1183604610 div.jsx-1183604610{box-sizing:border-box;}.news-section.jsx-1183604610 img.jsx-1183604610{width:20em;height:17em;}@media only screen and (max-width:800px){.media.jsx-1183604610{margin:1em;padding-top:30px;}.news-section.jsx-1183604610{display:block;min-height:35em;width:100%;}.news-section.jsx-1183604610 div.jsx-1183604610{width:100%;}.news-section.jsx-1183604610 img.jsx-1183604610{width:20em;height:15em;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcVXNlciBQQ1xcd29ya3NwYWNlXFxrY2FcXHBhZ2VzXFxtZWRpYS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF5RWtCLEFBR2UsQUFJQSxBQUlJLEFBS0ssQUFLWCxBQUlDLEFBT3FCLEFBTWQsQUFTTixBQU1BLEFBS0MsQUFRVSxBQVFiLEFBSVksQUFJQSxBQUlaLEFBS1ksQUFJWCxBQU1DLEFBSUcsQUFLTixBQUlLLFVBdENkLEFBV2dCLENBbkZsQixBQUlBLEFBY0EsQUFxQ2UsQUFxQ0QsQUFNTSxBQVVsQixBQUdVLENBekZTLEFBNEJULENBTkEsQ0EwREssRUE5RkcsQUEyQkUsS0FyQnRCLENBcUNjLEFBWUUsQUFhZCxBQUdVLEFBVVYsQ0E1Q2tCLEFBV0MsQUFxQ25CLEFBbUJBLEVBM0JBLEdBY0EsQ0E1RWMsQ0FnRkosRUF2QlYsRUF2RW1CLEFBMkJSLENBNEJxQixDQVpsQyxJQTFCQSxDQW9CQSxBQVcyQixBQStDekIsR0FuRVUsU0EzQlosQUE0QjRCLFdBb0JaLENBT0MsV0FOZixDQW5CQSxDQTBCaUIsaUJBRWpCLG9CQXZDTSxTQUNDLFVBQ1AiLCJmaWxlIjoiQzpcXFVzZXJzXFxVc2VyIFBDXFx3b3Jrc3BhY2VcXGtjYVxccGFnZXNcXG1lZGlhLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuL2NvbXBvbmVudHMvTXlMYXlvdXQnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTWVkaWEoKSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxMYXlvdXQ+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVkaWFcIj5cclxuICAgICAgPGg1PkhvbWUgPiBNZWRpYT4gTmV3czwvaDU+XHJcbiAgICAgICAgPGhyLz5cclxuICAgICAgIFxyXG4gICAgICAgIDxpbWcgc3JjPVwiL2J1c2luZXNzLmpwZ1wiIGFsdD1cImJ1c2luZXNzIGFuZCBzZXJ2aWNlc1wiLz5cclxuICAgICAgICA8cD5XZWxjb21lIHRvIG91ciBtZWRpYSBjZW50cmUuICBTdGF5IHVwIHRvIGRhdGUgd2l0aCB0aGUgbGF0ZXN0IG5ld3MgZnJvbSBQZXRyb2dhcyBHcm91cC4gIElmIHlvdSBhcmUgYSBqb3VybmFsaXN0IGFuZCBoYXZlIGEgbWVkaWEgZW5xdWlyeSBwbGVhc2UgY29udGFjdDpcclxuPC9wPlxyXG5UaGUgR3JvdXAgSGVhZCBvZiBjb21tdW5pY2F0aW9ucyA8YnIgLz5cclxuICAgICAgICBUZWw6ICArNDQgMjAzMCA5NTcgNjQxIDxiciAvPlxyXG4gICAgICAgIEVtYWlsOiBjb21tdW5pY2F0aW9uc0BwZXRyb2dhc2dyb3Vwb25saW5lLmNvbVxyXG4gICAgICAgIDxociAvPlxyXG48YnIvPlxyXG48YnIgLz5cclxuPGJyIC8+XHJcbjxhcnRpY2xlPlxyXG4gICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwibmV3cy1zZWN0aW9uXCI+XHJcbiAgPGltZyBzcmM9XCIvMS5qcGdcIiBhbHQ9XCJtZWRpYSBuZXdzIGltYWdlXCIvPlxyXG4gIDxkaXYgY2xhc3NOYW1lPVwiYXJ0aWNsZVwiPlxyXG48aDQ+MTV0aCBEZWNlbWJlciAyMDE5PC9oND5cclxuPGgzPlBldHJvR2FzIHNlY3VyZXMgJDg1MG1pbGxpb24gb2YgTGFuZCBkcmlsbGluZyBjb250cmFjdHMgaW4gTWlkZGxlIEVhc3QsIEFmcmljYSBhbmQgRXVyb3BlLiA8L2gzPlxyXG48cD5cclxuXHJcblBldHJvR2FzIHNlY3VyZXMgJDg1MG1pbGxpb24gb2YgTGFuZCBkcmlsbGluZyBjb250cmFjdHMgaW4gTWlkZGxlIEVhc3QsIEFmcmljYSBhbmQgRXVyb3BlLiBcclxuUGV0cm9nYXMgdG9kYXkgYW5ub3VuY2VzIHRoZSBpdCdzIGxhbmQgZHJpbGxpbmcgb3BlcmF0aW9uIGhhcyB3b24gbmV3IGNvbnRyYWN0cyB3b3J0aCBhcHByb3hpbWF0ZWx5ICQ4NTBtaWxsaW9uIGluIHRoZSBNaWRkbGUgRWFzdCwgQWZyaWNhIGFuZCBFdXJvcGUuPC9wPlxyXG4gIDwvZGl2PlxyXG5cclxuICA8L3NlY3Rpb24+XHJcbiAgICA8aHIgLz5cclxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cIm5ld3Mtc2VjdGlvblwiPlxyXG4gIDxpbWcgc3JjPVwiLzIuanBnXCIgYWx0PVwibWVkaWEgbmV3cyBpbWFnZVwiLz5cclxuICA8ZGl2IGNsYXNzTmFtZT1cImFydGljbGVcIj5cclxuPGg0PjE4dGggT2N0b2JlciAyMDE5PC9oND5cclxuPGgzPkJvbnRlYyB3aW5zIG11bHRpLW1pbGxpb24gZXVybyBjb250cmFjdCBmb3IgbmluZSAzMjB0IGNsdXN0ZXIgc2xpZGVyIGRyaWxsaW5nIHJpZ3MuPC9oMz5cclxuPHA+XHJcbkJvbnRlYywgYSBzdWJzaWRpYXJ5IG9mIFBldHJvZ2FzIG9uZSBvZiB0aGUgd29ybGTigJlzIGxlYWRpbmcgbWFudWZhY3R1cmVycyBvZiBkcmlsbGluZyByaWdzIGFuZCBvaWxmaWVsZCBlcXVpcG1lbnQsIHRvZGF5IGFubm91bmNlcyB0aGF0IGl0IGhhcyBzaWduZWQgYSBtdWx0aS1taWxsaW9uIGV1cm8gY29udHJhY3Qgd2l0aCB0aGUgZHJpbGxpbmcgZGl2aXNpb24gb2YgSU5LLVNlcnZpY2UgR3JvdXAgKOKAnElOS+KAnSkgZm9yIHRoZSBtYW51ZmFjdHVyZSBvZiBuaW5lIGxhdGVzdCBnZW5lcmF0aW9uIDMyMHQgY2x1c3RlciBzbGlkZXIgcmlncy4gSU5LIGlzIHRoZSBvaWxmaWVsZCBzZXJ2aWNlIHVuaXQgb2YgUnVzc2lh4oCZcyBJcmt1dHNrIE9pbCBDb21wYW55LjwvcD5cclxuIFxyXG4gIDwvZGl2PlxyXG5cclxuICA8L3NlY3Rpb24+XHJcbiAgICA8aHIgLz5cclxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cIm5ld3Mtc2VjdGlvblwiPlxyXG4gIDxpbWcgc3JjPVwiLzMucG5nXCIgYWx0PVwibWVkaWEgbmV3cyBpbWFnZVwiLz5cclxuICA8ZGl2IGNsYXNzTmFtZT1cImFydGljbGVcIj5cclxuPGg0PlxyXG4zcmQgU2VwdGVtYmVyLCAyMDE5PC9oND5cclxuPGgzPkJSRyB3aW5zIEh5cHNlciBFbmVyZ3kgY29uY2VwdHVhbCBzdHVkeSBjb250cmFjdDwvaDM+XHJcbjxwPlxyXG5CUkcsIFBldHJvZ2FzJ3MgZ2xvYmFsIHByb3ZpZGVyIG9mIGVuZ2luZWVyaW5nIGFuZCBkZXNpZ24gc29sdXRpb25zIHRvIHRoZSBvaWwgYW5kIGdhcywgcmVuZXdhYmxlIGFuZCBhbHRlcm5hdGl2ZSBlbmVyZ3kgc2VjdG9ycywgaXMgcGxlYXNlZCB0byBhbm5vdW5jZSB0aGF0IGl0IGhhcyB3b24gYSBuZXcgY29udHJhY3QgdG8gY2Fycnkgb3V0IGEgY29uY2VwdHVhbCBzdHVkeSBmb3IgSHlwc2VyIEVuZXJneS48L3A+XHJcblxyXG4gIDwvZGl2PlxyXG5cclxuICA8L3NlY3Rpb24+XHJcbiAgICA8aHIgLz5cclxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cIm5ld3Mtc2VjdGlvblwiPlxyXG4gIDxpbWcgc3JjPVwiLzQuanBnXCIgYWx0PVwibWVkaWEgbmV3cyBpbWFnZVwiLz5cclxuICA8ZGl2IGNsYXNzTmFtZT1cImFydGljbGVcIj5cclxuPGg0PjV0aCBKdWx5LCAyMDE5XHJcbjwvaDQ+XHJcbjxoMz5QZXRyb0dhcyBMYW5kIE9wZXJhdGlvbiBXaW5zICQyNjhtIG9mIE5ldyBEcmlsbGluZyBDb250cmFjdHMgaW4gUnVzc2lhPC9oMz5cclxuPHA+XHJcbkdsb2JhbCBkcmlsbGluZyBhbmQgZW5naW5lZXJpbmcgY29udHJhY3RvciBQZXRyb0dhcyBpcyBkZWxpZ2h0ZWQgdG8gYW5ub3VuY2UgdGhhdCBpdHMgbGFuZCBkcmlsbGluZyBvcGVyYXRpb24gaGFzIHdvbiB0aHJlZSBuZXcgY29udHJhY3RzIGluIFJ1c3NpYSB3b3J0aCBhcHByb3hpbWF0ZWx5ICQyNjhtLjwvcD5cclxuICA8L2Rpdj5cclxuXHJcbiAgPC9zZWN0aW9uPlxyXG4gICAgPGhyIC8+XHJcbjwvYXJ0aWNsZT5cclxuXHJcbiAgICAgIDwvZGl2PlxyXG4gICAgICA8c3R5bGUganN4PntgXHJcbi5tZWRpYXtcclxuICAgbWFyZ2luOiAzZW07XHJcbn1cclxuXHJcbi5tZWRpYSBpbWd7XHJcbiAgIHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4ubWVkaWEgcHtcclxuICBmb250LXNpemU6IDEuMmVtO1xyXG4gIGxpbmUtaGVpZ2h0OiAxLjRlbTtcclxuICBtYXJnaW46IDFlbSAwIDFlbSAwO1xyXG59XHJcbi5tZWRpYSBoMXtcclxuICBtYXJnaW46IDFlbSAwIDAuMmVtIDA7XHJcblxyXG59XHJcblxyXG4ubWVkaWEgaDJ7XHJcbiAgY29sb3I6Z3JleTtcclxufVxyXG5cclxuLm5ld3N7XHJcbiAgbWFyZ2luOmF1dG87XHJcbiAgICAgbWluLWhlaWdodDo0MDBweDtcclxuICAgICAgd2lkdGg6MTAwJTtcclxuICAgIFxyXG5cclxufVxyXG4gIC5uZXdzIHVse1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG5tYXJnaW46MDtcclxucGFkZGluZzowO1xyXG4gIH1cclxuXHJcbiAgLm5ld3MgdWwgbGl7XHJcbiAgICBsaXN0LXN0eWxlOiBub25lO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMmVtO1xyXG4gICAgcGFkZGluZzowO1xyXG4gICAgbWFyZ2luOjA7XHJcbiAgICBib3gtc2hhZG93OiAxcHggMXB4IGdyYXk7XHJcblxyXG4gIH1cclxuXHJcbiAubmV3cyB1bCBsaSBoMyA6OmJlZm9yZXtcclxuICBjb250ZW50Olwi4pa677iOXCI7XHJcbiAgY29sb3I6IHJlZDtcclxuICBtYXJnaW4tcmlnaHQ6IC4zZW07XHJcbn1cclxuICBcclxuLm5ld3MgaDJ7XHJcbiAgbWFyZ2luOiAzMHB4O1xyXG4gIHBhZGRpbmc6IDA7XHJcbmZvbnQtc2l6ZTogMmVtO1xyXG59XHJcbi5uZXdzIHB7XHJcbiAgICBtYXJnaW46IDhweDtcclxuICAgIHBhZGRpbmc6OHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6MS41ZW07XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICB9XHJcblxyXG4gIC5uZXdzLXNlY3Rpb257XHJcbiAgICBib3gtc2l6aW5nOmJvcmRlci1ib3g7XHJcbiAgICBkaXNwbGF5OmdyaWQ7XHJcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDI1JSA3NSU7XHJcbiAgICBncmlkLWdhcDogM2VtO1xyXG4gICBtaW4taGVpZ2h0OjIyMHB4O1xyXG5cclxuICB9XHJcbiAgLm5ld3Mtc2VjdGlvbiBoM3tcclxuICAgd2lkdGg6OTUlO1xyXG4gICAgXHJcbiAgfVxyXG4gIC5uZXdzLXNlY3Rpb24gaDR7XHJcbiAgIGJveC1zaXppbmc6Ym9yZGVyLWJveDtcclxuXHJcbiAgfVxyXG4gIC5uZXdzLXNlY3Rpb24gcHtcclxuICAgYm94LXNpemluZzpib3JkZXItYm94O1xyXG4gICB3aWR0aDo5NSU7XHJcbiAgfVxyXG4gIC5uZXdzLXNlY3Rpb24gYXtcclxuICAgY29sb3I6cmVkO1xyXG4gICBmb250LXNpemU6IDE1cHg7XHJcbiAgICBcclxuICB9XHJcbiAgLm5ld3Mtc2VjdGlvbiBkaXZ7XHJcbiAgIGJveC1zaXppbmc6Ym9yZGVyLWJveDtcclxuICAgIFxyXG4gIH1cclxuICAubmV3cy1zZWN0aW9uIGltZ3tcclxuICB3aWR0aDogMjBlbTtcclxuICBoZWlnaHQ6IDE3ZW07XHJcbiAgfVxyXG5cclxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDgwMHB4KXtcclxuICAubWVkaWF7XHJcbiAgICBtYXJnaW46MWVtO1xyXG4gICAgcGFkZGluZy10b3A6MzBweDtcclxuICB9XHJcbiAgLm5ld3Mtc2VjdGlvbntcclxuICAgIGRpc3BsYXk6YmxvY2s7XHJcbiAgbWluLWhlaWdodDozNWVtO1xyXG4gIHdpZHRoOjEwMCU7XHJcbiAgfVxyXG4gIC5uZXdzLXNlY3Rpb24gZGl2e1xyXG53aWR0aDogMTAwJTtcclxuICAgIFxyXG4gIH1cclxuICAubmV3cy1zZWN0aW9uIGltZ3tcclxuICAgICB3aWR0aDogMjBlbTtcclxuaGVpZ2h0OiAxNWVtO1xyXG4gIH1cclxufVxyXG4gICBcclxuICAgIGB9PC9zdHlsZT5cclxuICAgIDwvTGF5b3V0PlxyXG4gICk7XHJcbn0iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\User PC\\\\workspace\\\\kca\\\\pages\\\\media.js */"));
 }
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!***********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fmedia&absolutePagePath=C%3A%5CUsers%5CUser%20PC%5Cworkspace%5Ckca%5Cpages%5Cmedia.js ***!
   \***********************************************************************************************************************************/
@@ -7501,5 +7300,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=media.js.map
