@@ -78,7 +78,7 @@ export default function Index() {
               <Link href="/media">
                 <a>
                $10million Contract Awarded to PetroGas and Benny William Consults by Federal Ministry of Construction, United Kingdom.
-                  <p>27 April 2020</p>
+                  <p>4th May 2020</p>
                 </a>
               </Link>
             </li>
@@ -88,9 +88,8 @@ export default function Index() {
             <br />
               <Link href="/media">
                 <a>
-                CNRI awards PetroGas Group a multi-million
-                  pound drilling contract for three UK North Sea platforms
-                  <p>7 April 2019</p>
+                PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract.
+                  <p>28th January, 2020</p>
                 </a>
               </Link>
             </li>
@@ -100,9 +99,8 @@ export default function Index() {
             <br />
               <Link href="/media">
                 <a>
-                PetroGas Group wins multi-million euro
-                  contract for seven 320t cluster slider drilling rigs
-                  <p>2 December 2018</p>
+                PetroGas secures $850million of Land drilling contracts in Middle East, Africa and Europe.
+                  <p>15th December 2019</p>
                 </a>
               </Link>
             </li>
@@ -112,12 +110,13 @@ export default function Index() {
             <br />
               <Link href="/media">
                 <a>
-                PetroGas Group wins multi-million euro
-                  contract for seven 320t cluster slider drilling rigs
-                  <p>2 December 2018</p>
+                Bontec wins multi-million euro contract for nine 320t cluster slider drilling rigs.
+                  <p>18th October 2019</p>
                 </a>
               </Link>
             </li>
+            <br /> <br />
+          
 
           </ul>
           <Link href="/media" >

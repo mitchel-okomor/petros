@@ -78,8 +78,8 @@ return(
       </Link>
     </li>
     <li>
-      <Link href="/investors">
-        <a> Investors</a>
+      <Link href="/management">
+        <a> Management</a>
       </Link>
     </li>
     <li>

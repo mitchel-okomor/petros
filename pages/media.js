@@ -18,6 +18,28 @@ The Group Head of communications <br />
 <br />
 <br />
 <article>
+<section className="news-section">
+  <img src="/gale.jpeg" alt="media news image"/>
+  <div className="article">
+<h4>4th May, 2020</h4>
+<h3>$15m contract awarded to petrogas & Benny William consultant</h3>
+<p> $15m contract awarded to petrogas & Benny William consultant by Federal Ministry of Construction United Kingdom. <br />
+Contractor: George Adam Gales</p>
+  </div>
+
+  </section>
+  <hr />
+  <section className="news-section">
+  <img src="/martin.jpeg" alt="media news image"/>
+  <div className="article">
+<h4>28th January, 2020</h4>
+<h3>PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract</h3>
+<p> PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract for three UK North Sea platforms. The contract will run for two  years and will be renewed subject to review and agreement of terms by both parties.</p>
+  </div>
+
+  </section>
+    <hr />
+ 
     <section className="news-section">
   <img src="/1.jpg" alt="media news image"/>
   <div className="article">
@@ -30,6 +52,7 @@ Petrogas today announces the it's land drilling operation has won new contracts 
   </div>
 
   </section>
+  
     <hr />
     <section className="news-section">
   <img src="/2.jpg" alt="media news image"/>
@@ -154,6 +177,7 @@ font-size: 2em;
   .news-section p{
    box-sizing:border-box;
    width:95%;
+   font-size: 1.5em;
   }
   .news-section a{
    color:red;
@@ -184,8 +208,8 @@ width: 100%;
     
   }
   .news-section img{
-     width: 20em;
-height: 15em;
+     width: 100%;
+
   }
 }
    

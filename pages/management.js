@@ -84,10 +84,10 @@ export default function Investors() {
               display: inline-block;
               box-sizing: border-box;
               width: 20em;
-              margin: 20px;
+              margin: 30px;
               background-color: grey;
               color: white;
-              height: 24em;
+              height: 27em;
           }
 
           .product-card:hover{
@@ -119,6 +119,15 @@ export default function Investors() {
     margin:1em;
     padding-top:30px;
   }
+  .product-card{
+              display: inline-block;
+              box-sizing: border-box;
+              width: 100%;
+              margin: 20px;
+              background-color: grey;
+              color: white;
+              height: 30em;
+          }
 }
    
     `}</style>
