@@ -32,8 +32,8 @@ export default function Investors() {
          
         </div>
         <div className="product-card">
-            <img src="/james.jpeg" alt="image 1" />
-            <h4><a href="">James Hudson </a></h4>
+            <img src="/martin.jpeg" alt="image 1" />
+            <h4><a href="">Vlad Martin </a></h4>
             <p >President <br /> OffShore</p>
          
         </div>
@@ -79,15 +79,18 @@ export default function Investors() {
   display:flex;
   flex-basis: auto;
   flex-wrap: wrap;
+  justify-content: center;
+
 }
 .product-card{
               display: inline-block;
               box-sizing: border-box;
               width: 20em;
-              margin: 30px;
+              margin: 2em;
               background-color: grey;
               color: white;
               height: 27em;
+              
           }
 
           .product-card:hover{
@@ -95,7 +98,7 @@ export default function Investors() {
           }
           .product-card img{
               width: 100%;
-              height: 65%;
+              height: 68%;
               border: 8px solid lightgrey;
           }
           .product-card h4 {

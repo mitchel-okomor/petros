@@ -7,7 +7,9 @@ export default function Contact() {
       <div className="contact">
       <h5>Home > Contact us</h5>
        <hr/>
-       <h1>Our addresses</h1> 
+     
+       <br />
+       <br />
        <div className="address">
 
 <div id="office1">
@@ -53,6 +55,7 @@ T: +32 460 220 832
 E: info@petrogasservices.com
   </p>
 </div>
+
        </div>
       </div>
       <style jsx>{`
@@ -60,17 +63,16 @@ E: info@petrogasservices.com
           display: grid;
           grid-template-columns: auto auto auto;
           grid-column-gap: 2em;
+          text-align: center;
+          margin:auto;
+          min-height: 20em;
         }
 .contact{
     margin: 5em;
+    
 }
 
-.contact h1{
-  text-align:center;
-  margin-top: 2em;
-  margin-bottom:2em;
 
-}
 .contact h2{
   color:grey;
 }
@@ -83,26 +85,20 @@ E: info@petrogasservices.com
 @media only screen and (max-width: 800px) {
   .contact{
     margin: 1em;
-    padding-top:30px;
 }
 
-.contact h1{
-  text-align:center;
-  margin-top: 1em;
-}
+
 .contact h3{
   color:grey;
 }
 .address{
   display: block;
   margin: auto;
+  text-align:center;
 }
-#office1{
-  width: 80%;
-}
-#office2{
-  width:80%;
-}
+ .address div{
+   margin-bottom: 2.3em;
+ }
  
 }
     `}</style>
