@@ -88,7 +88,7 @@ export default function Index() {
             <br />
               <Link href="/media">
                 <a>
-                PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract.
+                PetroGas awards Vlat Martin Engineering Consult an $80million drilling contract.
                   <p>28th January, 2020</p>
                 </a>
               </Link>
