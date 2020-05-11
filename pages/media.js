@@ -33,9 +33,9 @@ Contractor: George Adam Gales</p>
   <img src="/martin.jpeg" alt="media news image"/>
   <div className="article">
 <h4>28th January, 2020</h4>
-<h3>PetroGas awards Vlat Martin Engineering Consults an $80million drilling contract
+<h3>PetroGas awards Vlat Martin Engineering Consult an $80million drilling contract
 </h3>
-<p> PetroGas awards Vlat Martin Engineering Consults an $80million drilling contract for three UK North Sea platforms. The contract will run for two years and will be renewed subject to review and agreement of terms by both parties.</p>
+<p> PetroGas awards Vlat Martin Engineering Consult an $80million drilling contract for three UK North Sea platforms. The contract will run for two years and will be renewed subject to review and agreement of terms by both parties.</p>
   </div>
 
   </section>
