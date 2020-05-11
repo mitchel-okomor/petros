@@ -33,8 +33,8 @@ Contractor: George Adam Gales</p>
   <img src="/martin.jpeg" alt="media news image"/>
   <div className="article">
 <h4>28th January, 2020</h4>
-<h3>PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract</h3>
-<p> PetroGas awards Vlat Martin Engineering Consultants a $80million drilling contract for three UK North Sea platforms. The contract will run for two  years and will be renewed subject to review and agreement of terms by both parties.</p>
+<h3>PetroGas awards Schwartz Kristoffel Engineering Services a $80million drilling contract</h3>
+<p> PetroGas awards Schwartz Kristoffel Engineering Services a $80million drilling contract for three UK North Sea platforms. The contract will run for two  years and will be renewed subject to review and agreement of terms by both parties. <br/> Contractor: Vlad Martin</p>
   </div>
 
   </section>
@@ -48,7 +48,7 @@ Contractor: George Adam Gales</p>
 <p>
 
 PetroGas secures $850million of Land drilling contracts in Middle East, Africa and Europe. 
-Petrogas today announces the it's land drilling operation has won new contracts worth approximately $850million in the Middle East, Africa and Europe.</p>
+Petrogas today announces it's land drilling operation has won new contracts worth approximately $850million in the Middle East, Africa and Europe.</p>
   </div>
 
   </section>
