@@ -22,8 +22,8 @@ The Group Head of communications <br />
   <img src="/gale.jpeg" alt="media news image"/>
   <div className="article">
 <h4>4th May, 2020</h4>
-<h3>$15m contract awarded to petrogas & Benny William consultant</h3>
-<p> $15m contract awarded to petrogas & Benny William consultant by Federal Ministry of Construction United Kingdom. <br />
+<h3>$148million contract awarded to George Gales & Benny William consultants</h3>
+<p> $148million contract awarded to George Gales & Benny William consultants by Federal Ministry of Construction United Kingdom. <br />
 Contractor: George Adam Gales</p>
   </div>
 
@@ -85,9 +85,9 @@ BRG, Petrogas's global provider of engineering and design solutions to the oil a
   <div className="article">
 <h4>5th July, 2019
 </h4>
-<h3>PetroGas Land Operation Wins $268m of New Drilling Contracts in Russia</h3>
+<h3>PetroGas Land Operation Wins $268million of New Drilling Contracts in Russia</h3>
 <p>
-Global drilling and engineering contractor PetroGas is delighted to announce that its land drilling operation has won three new contracts in Russia worth approximately $268m.</p>
+Global drilling and engineering contractor PetroGas is delighted to announce that its land drilling operation has won three new contracts in Russia worth approximately $268million.</p>
   </div>
 
   </section>

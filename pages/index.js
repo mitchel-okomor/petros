@@ -77,7 +77,7 @@ export default function Index() {
             <br />
               <Link href="/media">
                 <a>
-               $10million Contract Awarded to PetroGas and Benny William Consults by Federal Ministry of Construction, United Kingdom.
+               $148million Contract Awarded to George Gales and Benny William Consultants by Federal Ministry of Construction, United Kingdom.
                   <p>4th May 2020</p>
                 </a>
               </Link>

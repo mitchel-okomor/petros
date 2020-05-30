@@ -45,7 +45,7 @@ export default function Investors() {
         </div>
         <div className="product-card">
             <img src="/gale.jpeg" alt="image 1" />
-            <h4><a href="">Gearge Gale</a></h4>
+            <h4><a href="">George Gale</a></h4>
             <p >Group head of HSE and Operational Integrity</p> 
         </div>
   </section>
