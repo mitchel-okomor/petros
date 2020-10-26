@@ -34,7 +34,6 @@ export default function Index() {
               <img src="/newoffshore.png" alt="" />
               <h3>Offshore</h3>
               <p>Platform drilling operations & maintenance</p>
-              <img id="icon-img" src="" alt="" />
              </a>
               </Link>
             </div>
@@ -43,7 +42,6 @@ export default function Index() {
               <img src="/land.png" alt="" />
               <h3>Land</h3>
               <p>Platform drilling operations & maintenance</p>
-              <img id="icon-img" src="" alt="" />
               </a>
               </Link>
             </div>
@@ -52,7 +50,6 @@ export default function Index() {
               <img src="/engineering.png" alt="" />
               <h3>Engineering</h3>
               <p>Platform drilling operations & maintenance</p>
-              <img id="icon-img" src="" alt="" />
               </a>
               </Link>
             </div>
@@ -61,7 +58,6 @@ export default function Index() {
               <img src="/manufacturing.png" alt="" />
               <h3>Manufacturing</h3>
               <p>Platform drilling operations & maintenance</p>
-              <img id="icon-img" src="" alt="" />
               </a>
               </Link>
             </div>
@@ -73,7 +69,6 @@ export default function Index() {
           <h2>Latest News</h2>
           <ul>
             <li>
-            <img src="" alt="" />
             <br />
               <Link href="/media">
                 <a>
@@ -84,7 +79,6 @@ export default function Index() {
             </li>
             <br /> <br />
             <li>
-            <img src="" alt="" />
             <br />
               <Link href="/media">
                 <a>
@@ -95,7 +89,6 @@ export default function Index() {
             </li>
             <br /> <br />
             <li>
-            <img src="" alt="" />
             <br />
               <Link href="/media">
                 <a>
@@ -106,7 +99,6 @@ export default function Index() {
             </li>
             <br /> <br />
             <li>
-            <img src="" alt="" />
             <br />
               <Link href="/media">
                 <a>
